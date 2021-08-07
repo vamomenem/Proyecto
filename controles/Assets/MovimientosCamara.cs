@@ -4,30 +4,30 @@ using UnityEngine;
 
 public class MovimientosCamara : MonoBehaviour
 {
-    public List<Transform> targets;
+    public List<Transform> targets; //lista de targets
  
     public Vector3 offset; //spawn de la camara
     public float smoothTime = .5f; //suavidad del movimiento de la camara
  
-    public float minZoom = 70f; //Minimo zoom que toma la camara cuando los jugadores se alejan
-    public float maxZoom = 40f; //Maximo zoom que toma la camara cuando los jugadores se acercan
-    public float zoomLimiter = 40f;
+    public float minZoom = 70f; //Minimo zoom que puede tomar la camara al jugador
+    public float maxZoom = 40f; //Maximo zoom que tomar la camara al jugador
+    public float zoomLimiter = 40f; //Zoom entre los objetivos (jugadores)
  
     private Vector3 velocity;
-    private Camera cam;
+    private Camera cam; //donde se almacena la camara
  
  
     private void Start()
     {
  
-        cam = GetComponent<Camera>();
+        cam = GetComponent<Camera>();  //identificacion de la camara
  
     }
  
-    private void LateUpdate()
+    private void LateUpdate() //update despues del update
     {
  
-        if (targets.Count == 0)
+        if (targets.Count == 0) //si no hay ningun objetivo, no hacer nada
             return;
  
  
@@ -36,17 +36,17 @@ public class MovimientosCamara : MonoBehaviour
  
     }
  
-    void zoom()
+    void zoom() //funcion del zoom
     {
  
-        float newZoom = Mathf.Lerp(maxZoom, minZoom, getGreatestDistance() / zoomLimiter);
-        cam.fieldOfView = Mathf.Lerp(cam.fieldOfView, newZoom, Time.deltaTime);
+        float newZoom = Mathf.Lerp(maxZoom, minZoom, getGreatestDistance() / zoomLimiter); //encuentra un valor entre al zoom minimo y maximo
+        cam.fieldOfView = Mathf.Lerp(cam.fieldOfView, newZoom, Time.deltaTime); // se lo aplica a la camara en un determinano numero de segundos para que quede "suave"
  
  
     }
  
  
-    void move()
+    void move() //funcion de mover la camara
     {
  
         Vector3 centerPoint = getCenterPoint();
@@ -55,14 +55,14 @@ public class MovimientosCamara : MonoBehaviour
  
     }
  
-    float getGreatestDistance()
+    float getGreatestDistance() //Saca la distancia entre los objetivos mas lejanos
     {
  
-        var bounds = new Bounds(targets[0].position, Vector3.zero);
+        var bounds = new Bounds(targets[0].position, Vector3.zero); //crea un grupo de objetos (bounds)
         for (int i = 0; i < targets.Count; i++)
         {
  
-            bounds.Encapsulate(targets[i].position);
+            bounds.Encapsulate(targets[i].position); //saca la posicion central del bound
  
  
         }
@@ -72,10 +72,10 @@ public class MovimientosCamara : MonoBehaviour
     }
  
  
-    Vector3 getCenterPoint()
+    Vector3 getCenterPoint() //saca el punto medio de la distancia de los objetivos
     {
  
-        if (targets.Count == 1)
+        if (targets.Count == 1) //si es 1, es la posicion de ese
         {
  
             return targets[0].position;
@@ -88,7 +88,7 @@ public class MovimientosCamara : MonoBehaviour
         {
  
  
-            bounds.Encapsulate(targets[i].position);
+            bounds.Encapsulate(targets[i].position); //sino, crea un bound y saca su punto central
  
         }
  
