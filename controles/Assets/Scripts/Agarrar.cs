@@ -31,7 +31,7 @@ public class Agarrar : MonoBehaviour
                 other.GetComponent<Rigidbody>().useGravity = true;
                 other.GetComponent<Rigidbody>().isKinematic = false;
                 other.transform.position = handPoint.transform.position;
-                other.gameObject.transform.SetParent(handPoint.gameObject.transform);
+                other.gameObject.transform.SetParent(null);
                 pickedObject = null;
                 StartCoroutine(delayCopado2());
                 return;
@@ -53,7 +53,7 @@ public class Agarrar : MonoBehaviour
 
     IEnumerator delayCopado2()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
         isHoldingSomething = false;
     }
 
