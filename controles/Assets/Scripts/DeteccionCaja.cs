@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class DeteccionCaja : MonoBehaviour
 {
-    //public static 
-    public GameObject cajita;
+    public static int num_Powerup;
 
-    private void OnCollisionEnter(Collision other)   
+    private void OnCollisionEnter(Collision other) {
+	if(other.gameObject.tag == "Player")
     {
-        if (other.gameObject.tag == "cajita")
-        {
-            GameObject.Destroy(cajita);
-        }        
-    } 
+        num_Powerup = Random.Range(1,4);
+        Debug.Log(num_Powerup);
+		Destroy(gameObject);
+	}
+    }
 
 }
