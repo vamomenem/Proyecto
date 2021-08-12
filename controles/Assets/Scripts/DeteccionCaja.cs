@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class DeteccionCaja : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    //public static 
+    public GameObject cajita;
 
-    // Update is called once per frame
-    void Update()
+    private void OnCollisionEnter(Collision other)   
     {
-        
-    }
+        if (other.gameObject.tag == "cajita")
+        {
+            GameObject.Destroy(cajita);
+        }        
+    } 
+
 }
