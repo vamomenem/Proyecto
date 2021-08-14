@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class Randomizer : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
-        
+        if (DeteccionCaja.num_Powerup > 0)
+        {
+            Debug.Log("funca");
+            DeteccionCaja.num_Powerup = 0;
+
+        }
     }
 }
