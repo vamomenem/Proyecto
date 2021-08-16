@@ -22,21 +22,19 @@ public class InstanciadorCajas : MonoBehaviour
 
     void Start()
     {
-        //contar la cantidad de cajas y guardarlo en un int
-
         StartCoroutine(SpawnCajas());
     }
 
     void Update()
     {
-         
+         cantCajas = GameObject.FindGameObjectsWithTag("cajita").Length;
     }
 
     IEnumerator SpawnCajas()
         {
             while (cantCajas < 2)
             {
-                yield return new WaitForSeconds(10);
+                yield return new WaitForSeconds(1);
                 ClonarCajas();
             }
         }
