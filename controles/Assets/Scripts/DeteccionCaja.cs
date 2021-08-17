@@ -10,7 +10,7 @@ public class DeteccionCaja : MonoBehaviour
 	if(other.gameObject.tag == "Player")
     {
         num_Powerup = Random.Range(1,4);
-        Debug.Log(num_Powerup);
+        //Debug.Log(num_Powerup);
 
 		Destroy(gameObject);
 	}

@@ -16,7 +16,7 @@ public class Randomizer : MonoBehaviour
     {
         if (DeteccionCaja.num_Powerup > 0)
         {
-            Debug.Log("funca");
+            //Debug.Log("funca");
             DeteccionCaja.num_Powerup = 0;
 
         }

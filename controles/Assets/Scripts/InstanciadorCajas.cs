@@ -8,6 +8,9 @@ public class InstanciadorCajas : MonoBehaviour
     int numeroAleatorio;
     int cantCajas;
     
+    public GameObject[] spawners;
+
+/*
     Vector3 posicion1 = new Vector3 (17, 2, 16);
     Vector3 posicion2 = new Vector3 (15, 2, 16);
     Vector3 posicion3 = new Vector3 (13, 2, 16);
@@ -16,33 +19,45 @@ public class InstanciadorCajas : MonoBehaviour
     Vector3 posicion6 = new Vector3 (7, 2, 16);
     Vector3 posicion7 = new Vector3 (5, 2, 16);
     Vector3 posicion8 = new Vector3 (3, 2, 16);
-    Vector3 posicion9 = new Vector3 (1, 2, 16);
+    Vector3 posicion9 = new Vector3 (1, 2, 16);*/
 
-    public GameManager Geim;
+    bool hasSpawned = false;
 
     void Start()
     {
-        StartCoroutine(SpawnCajas());
+        //StartCoroutine(SpawnCajas());
     }
 
     void Update()
     {
          cantCajas = GameObject.FindGameObjectsWithTag("cajita").Length;
+         Debug.Log(cantCajas);
+         if (!hasSpawned){
+             StartCoroutine(SpawnCajas());
+         }
     }
 
     IEnumerator SpawnCajas()
         {
-            while (cantCajas < 2)
+            if (cantCajas <= 2)
             {
-                yield return new WaitForSeconds(1);
+                hasSpawned = true;
                 ClonarCajas();
+                yield return new WaitForSeconds(1);
+                //Debug.Log("wee3");
+                hasSpawned = false;
             }
+            
         }
 
     public void ClonarCajas()
     {
+        Random.seed = (int)System.DateTime.Now.Ticks;
         numeroAleatorio = Random.Range(1,9);
+        Debug.Log("Random seed = " + numeroAleatorio);
 
+        Instantiate(prefabCaja, spawners[numeroAleatorio].transform.position, spawners[numeroAleatorio].transform.rotation);
+        /*
         if(numeroAleatorio == 1)
         {
             Instantiate(prefabCaja, posicion1, Quaternion.identity);
@@ -86,7 +101,7 @@ public class InstanciadorCajas : MonoBehaviour
         if(numeroAleatorio == 9)
         {
             Instantiate(prefabCaja, posicion9, Quaternion.identity);
-        }
+        }*/
 
     }
 
