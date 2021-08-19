@@ -7,40 +7,56 @@ public class InstanciadorCajas : MonoBehaviour
     public GameObject prefabCaja;
     int numeroAleatorio;
     int cantCajas;
-    
     public GameObject[] spawners;
-
     bool hasSpawned = false;
+    int lastNumber = 0;
+    //public bool hasBeenPickedUp = false;
+
+    void Start ()
+    {
+        StartCoroutine(SpawnCajas());
+    }
 
     void Update()
     {
          cantCajas = GameObject.FindGameObjectsWithTag("cajita").Length;
-         Debug.Log(cantCajas);
+
+         if (cantCajas <= 1){
+         //if (hasBeenPickedUp){
          if (!hasSpawned){
              StartCoroutine(SpawnCajas());
+             //hasBeenPickedUp = false;
+         }
+        // }
          }
     }
 
     IEnumerator SpawnCajas()
         {
-            if (cantCajas <= 2)
-            {
                 hasSpawned = true;
+                yield return new WaitForSeconds(5);
                 ClonarCajas();
-                yield return new WaitForSeconds(20);
                 hasSpawned = false;
-            }
-            
         }
 
     public void ClonarCajas()
     {
         Random.seed = (int)System.DateTime.Now.Ticks;
-        numeroAleatorio = Random.Range(1,9);
-        Debug.Log("Random seed = " + numeroAleatorio);
+        numeroAleatorio = Random.Range(1,8);
+        //Debug.Log("Random seed = " + numeroAleatorio);
 
-        Instantiate(prefabCaja, spawners[numeroAleatorio].transform.position, spawners[numeroAleatorio].transform.rotation);
-        
+        if (lastNumber == numeroAleatorio)
+        {
+            numeroAleatorio++;
+            Instantiate(prefabCaja, spawners[numeroAleatorio].transform.position, spawners[numeroAleatorio].transform.rotation);
+            numeroAleatorio = lastNumber;
+        }
+        else
+        {
+            Instantiate(prefabCaja, spawners[numeroAleatorio].transform.position, spawners[numeroAleatorio].transform.rotation);
+            numeroAleatorio = lastNumber;
+        }
+
     }
 
 }
