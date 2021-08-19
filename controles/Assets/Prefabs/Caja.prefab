@@ -38,6 +38,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7595251628533694056}
     m_Modifications:
+    - target: {fileID: 7685708483662105493, guid: da30ed1790f99b54fb75d118f06e01c8, type: 3}
+      propertyPath: m_Size.x
+      value: 1.3634214
+      objectReference: {fileID: 0}
+    - target: {fileID: 7685708483662105493, guid: da30ed1790f99b54fb75d118f06e01c8, type: 3}
+      propertyPath: m_Size.y
+      value: 1.4342871
+      objectReference: {fileID: 0}
+    - target: {fileID: 7685708483662105493, guid: da30ed1790f99b54fb75d118f06e01c8, type: 3}
+      propertyPath: m_Center.x
+      value: 0.0016218424
+      objectReference: {fileID: 0}
+    - target: {fileID: 7685708483662105493, guid: da30ed1790f99b54fb75d118f06e01c8, type: 3}
+      propertyPath: m_Center.y
+      value: 0.01200974
+      objectReference: {fileID: 0}
     - target: {fileID: 7685708483662105495, guid: da30ed1790f99b54fb75d118f06e01c8, type: 3}
       propertyPath: m_Name
       value: prefabCaja
