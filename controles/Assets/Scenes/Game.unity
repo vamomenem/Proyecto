@@ -2534,7 +2534,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabObjeto: {fileID: 380612735340803645, guid: 989ba3addd8383b46894ec24172e7c56, type: 3}
   puntoSpawn: {fileID: 1324102679}
-  hasBeenGrabbed: 0
 --- !u!1 &1146317637
 GameObject:
   m_ObjectHideFlags: 0
@@ -2846,7 +2845,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1324102679}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalPosition: {x: 0, y: 0.571, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1029470924}
@@ -2861,7 +2860,7 @@ BoxCollider:
   m_GameObject: {fileID: 1324102679}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}

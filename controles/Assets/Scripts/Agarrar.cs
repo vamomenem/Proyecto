@@ -7,6 +7,7 @@ public class Agarrar : MonoBehaviour
     private GameObject pickedObject;
     bool isHoldingSomething = false;
     public GameObject handPoint;
+    //public GameObject puntoSpawn;
 
     private void OnTriggerStay(Collider other)
     {
@@ -23,6 +24,12 @@ public class Agarrar : MonoBehaviour
                 other.gameObject.transform.SetParent(handPoint.gameObject.transform);
                 pickedObject = other.gameObject;
                 StartCoroutine(delayCopado());
+
+                /*if(other.tag == "Objeto" && other.transform.position == puntoSpawn.transform.position)
+                {
+                    InstanciadorObjetos.hasBeenGrabbed = true;
+                }
+                */
                 return;
             }
             if (Input.GetKeyDown("f") && isHoldingSomething)
