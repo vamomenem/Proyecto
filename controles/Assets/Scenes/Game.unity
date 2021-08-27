@@ -1080,6 +1080,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   handPoint: {fileID: 1952614190}
+  childFound: 
 --- !u!1 &534549177
 GameObject:
   m_ObjectHideFlags: 0
@@ -2532,8 +2533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d82b4b6bb6aa4294b9458fafffb6f683, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabObjeto: {fileID: 380612735340803645, guid: 989ba3addd8383b46894ec24172e7c56, type: 3}
-  puntoSpawn: {fileID: 1324102679}
+  hasObjectInIt: 0
 --- !u!1 &1146317637
 GameObject:
   m_ObjectHideFlags: 0
@@ -4290,6 +4290,10 @@ PrefabInstance:
     - target: {fileID: 380612735340803645, guid: 989ba3addd8383b46894ec24172e7c56, type: 3}
       propertyPath: m_Name
       value: Cube
+      objectReference: {fileID: 0}
+    - target: {fileID: 380612735340803645, guid: 989ba3addd8383b46894ec24172e7c56, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 989ba3addd8383b46894ec24172e7c56, type: 3}
