@@ -1,12 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
+
+
 
 public class MovimientosBasicos : MonoBehaviour
 {
 public CharacterController cuntroles;
     
     public float spEed = 6f;
+
+    //public InputAction 
 
     Vector3 moveVector;
 
