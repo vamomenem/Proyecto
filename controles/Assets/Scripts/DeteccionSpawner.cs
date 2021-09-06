@@ -15,4 +15,9 @@ public class DeteccionSpawner : MonoBehaviour
     {
         
     }
+
+    private void OnTriggerStay(Collider other)
+    {
+        
+    }
 }
