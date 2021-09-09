@@ -16,10 +16,14 @@ public class Agarrar : MonoBehaviour
         //if (other.gameObject.transform.Find(childFound))
            // item = other.gameObject.transform.Find(childFound);
 
-            if (Input.GetKeyDown("f") && !isHoldingSomething)
+            if (Input.GetKeyDown("f") && !isHoldingSomething && other.tag == "Objeto")
             {
                 other.GetComponent<Rigidbody>().useGravity = false;
                 other.GetComponent<Rigidbody>().isKinematic = true;
+                if (other.gameObject.GetComponentInParent<InstanciadorObjetos>()){
+                    InstanciadorObjetos insta = other.transform.GetComponentInParent<InstanciadorObjetos>();
+                    insta.hasObjectInIt = false;
+                }
                 other.transform.position = handPoint.transform.position;
                 other.gameObject.transform.SetParent(handPoint.gameObject.transform);
                 pickedObject = other.gameObject;

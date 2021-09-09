@@ -37,12 +37,14 @@ public class Timer : MonoBehaviour
         }
         takingAway = false;
 
-        if (secondsLeft == 60 ){
-            min = 1;
+        if (secondsLeft >= 60 ){
+            min ++;
+            secondsLeft -= 60;
+
         }
-        if (min == 1 && secondsLeft == 0)
+        if (min > 0 && secondsLeft == 0)
         {
-            min = 0;
+            min --;
             secondsLeft = 60;
         }
         if (min == 0 && secondsLeft == 0 )

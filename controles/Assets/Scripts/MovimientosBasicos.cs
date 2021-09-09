@@ -11,7 +11,7 @@ public CharacterController cuntroles;
     
     public float spEed = 6f;
 
-    //public InputAction 
+    public InputAction 
 
     Vector3 moveVector;
 
