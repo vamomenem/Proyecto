@@ -11,8 +11,6 @@ public CharacterController cuntroles;
     
     public float spEed = 6f;
 
-    public InputAction 
-
     Vector3 moveVector;
 
     public float TurnSmoothTime = 0.001f;
