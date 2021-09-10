@@ -1,44 +1,45 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 
-
+[RequireComponent(typeof(CharacterController))]
 public class MovimientosBasicos : MonoBehaviour
 {
-public CharacterController cuntroles;
-    
-    public float spEed = 6f;
+  [SerializeField] 
+  private float playerSpeed = 2.0f;
 
-    Vector3 moveVector;
+    private CharacterController controller;
+    private Vector3 playerVelocity;
+    private bool groundedPlayer;
 
-    public float TurnSmoothTime = 0.001f;
-    float TurnSmoothVelocity;
+    private Vector2 movementInput = Vector2.zero;
 
+    private void Start()
+    {
+        controller = gameObject.GetComponent<CharacterController>();
+    }
+
+    public void OnMove(InputAction.CallbackContext context) {
+      movementInput = context.ReadValue<Vector2>();
+
+    }
     void Update()
     {
-      float horizontal = Input.GetAxisRaw("Horizontal");
-      float vertical = Input.GetAxisRaw("Vertical");
-      Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
-      
-      if(direction.magnitude >= 0.1f)
-      {
-        float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg;
-        //NO ES IMPOSTOR!!!
-        float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref TurnSmoothVelocity, TurnSmoothTime);
-        transform.rotation = Quaternion.Euler(0f, angle, 0f);
+        groundedPlayer = controller.isGrounded;
+        if (groundedPlayer && playerVelocity.y < 0)
+        {
+            playerVelocity.y = 0f;
+        }
 
-          cuntroles.Move(direction * spEed * Time.deltaTime);
-      }
+        Vector3 move = new Vector3(movementInput.x, 0, movementInput.x);
+        controller.Move(move * Time.deltaTime * playerSpeed);
 
-      moveVector = Vector3.zero;
-
-      if (cuntroles.isGrounded == false)
-         {
-             moveVector += Physics.gravity;
-         }
- 
-         cuntroles.Move(moveVector * Time.deltaTime);
+        if (move != Vector3.zero)
+        {
+            gameObject.transform.forward = move;
+        }
+        controller.Move(playerVelocity * Time.deltaTime);
     }
+
 }
