@@ -13,9 +13,6 @@ public class Agarrar : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        //if (other.gameObject.transform.Find(childFound))
-           // item = other.gameObject.transform.Find(childFound);
-
             if (Input.GetKeyDown("f") && !isHoldingSomething && other.tag == "Objeto")
             {
                 other.GetComponent<Rigidbody>().useGravity = false;
