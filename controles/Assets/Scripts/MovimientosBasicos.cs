@@ -21,14 +21,16 @@ public class MovimientosBasicos : MonoBehaviour
     public float TurnSmoothTime = 0.001f;
     float TurnSmoothVelocity;
 
+
+    float horizontal = 0;
+   float vertical = 0;
     private void Update()
     {
 
 
-      float horizontal = 0;
-      float vertical = 0;
 
-      if (Input.GetKey(uparrow)){
+
+      if (Input.GetKeyDown(uparrow)){
          switch (vertical){
             case 1:
               break;
@@ -41,7 +43,21 @@ public class MovimientosBasicos : MonoBehaviour
          }
       }
 
-      if (Input.GetKey(downarrow)){
+       else if (Input.GetKeyUp(uparrow)){
+        switch (vertical){
+            case 1:
+              vertical = 0;
+              break;
+            case 0:
+            vertical = 0;            
+              break;
+            case -1:
+            vertical = 0;
+              break;
+        }
+      }
+
+      if (Input.GetKeyDown(downarrow)){
          switch (vertical){
             case 1:
               vertical = 0;
@@ -51,10 +67,22 @@ public class MovimientosBasicos : MonoBehaviour
               break;
             case -1:
               break;
-         }
+         } 
+      } else if (Input.GetKeyUp(downarrow)){
+        switch (vertical){
+            case 1:
+              vertical = 0;
+              break;
+            case 0:
+            vertical = 0;            
+              break;
+            case -1:
+            vertical = 0;
+              break;
+        }
       }
 
-            if (Input.GetKey(rightarrow)){
+            if (Input.GetKeyDown(rightarrow)){
          switch (horizontal){
             case 1:
               break;
@@ -66,8 +94,21 @@ public class MovimientosBasicos : MonoBehaviour
               break;
          }
       }
+       else if (Input.GetKeyUp(rightarrow)){
+        switch (horizontal){
+            case 1:
+              horizontal = 0;
+              break;
+            case 0:
+            horizontal = -1;            
+              break;
+            case -1:
+            horizontal = -1;
+              break;
+        }
+      }
 
-            if (Input.GetKey(leftarrow)){
+            if (Input.GetKeyDown(leftarrow)){
          switch (horizontal){
             case 1:
               horizontal = 0;
@@ -79,6 +120,20 @@ public class MovimientosBasicos : MonoBehaviour
               break;
          }
       }
+      else if (Input.GetKeyUp(leftarrow)){
+        switch (horizontal){
+            case 1:
+              horizontal = 0;
+              break;
+            case 0:
+             horizontal = 0;           
+              break;
+            case -1:
+             horizontal = 0;
+              break;
+        }
+      }
+
 
 
       Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
