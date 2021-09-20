@@ -9,13 +9,78 @@ public class MovimientosBasicos : MonoBehaviour
     private Vector3 movementInput;
      Vector3 moveVector;
 
+
+    [SerializeField] KeyCode uparrow;
+    
+    [SerializeField] KeyCode downarrow;
+    
+    [SerializeField] KeyCode rightarrow;
+    
+    [SerializeField] KeyCode leftarrow;
+
     public float TurnSmoothTime = 0.001f;
     float TurnSmoothVelocity;
 
     private void Update()
     {
-        float horizontal = Input.GetAxisRaw("Horizontal");
-      float vertical = Input.GetAxisRaw("Vertical");
+
+
+      float horizontal = 0;
+      float vertical = 0;
+
+      if (Input.GetKey(uparrow)){
+         switch (vertical){
+            case 1:
+              break;
+            case 0:
+              vertical = 1;
+              break;
+            case -1:
+              vertical = 0;
+              break;
+         }
+      }
+
+      if (Input.GetKey(downarrow)){
+         switch (vertical){
+            case 1:
+              vertical = 0;
+              break;
+            case 0:
+              vertical = -1;
+              break;
+            case -1:
+              break;
+         }
+      }
+
+            if (Input.GetKey(rightarrow)){
+         switch (horizontal){
+            case 1:
+              break;
+            case 0:
+              horizontal = 1;
+              break;
+            case -1:
+              horizontal = 0;
+              break;
+         }
+      }
+
+            if (Input.GetKey(leftarrow)){
+         switch (horizontal){
+            case 1:
+              horizontal = 0;
+              break;
+            case 0:
+              horizontal = -1;
+              break;
+            case -1:
+              break;
+         }
+      }
+
+
       Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
 
       if(direction.magnitude >= 0.1f)
