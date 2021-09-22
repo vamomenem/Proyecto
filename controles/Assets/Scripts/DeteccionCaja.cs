@@ -15,11 +15,18 @@ public class DeteccionCaja : MonoBehaviour
 	if(other.gameObject.tag == "Player")
     {
         num_Powerup = Random.Range(1,4);
-        //Debug.Log(num_Powerup);
-
-        //IC.hasBeenPickedUp = true;
 		Destroy(gameObject);
 	}
     }
+
+    private void PowerUpSpeed()
+    {
+        //aumentarle la velocidad al jugador
+    }
+
+    private void PowerDown()
+    {
+        //disminuirle la velocidad al jugador
+    } 
 
 }

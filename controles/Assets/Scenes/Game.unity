@@ -3204,8 +3204,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targets:
-  - {fileID: 1792537427}
-  - {fileID: 1831626840}
+  - {fileID: 1987060516}
+  - {fileID: 1220061913}
   offset: {x: 0.7, y: 20, z: -13}
   smoothTime: 0.5
   minZoom: 70
@@ -5968,11 +5968,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!4 &1831626840 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 380612735340803638, guid: 989ba3addd8383b46894ec24172e7c56, type: 3}
-  m_PrefabInstance: {fileID: 380612735959178862}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1857268077
 GameObject:
   m_ObjectHideFlags: 0
