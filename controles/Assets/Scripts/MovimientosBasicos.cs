@@ -9,6 +9,7 @@ public class MovimientosBasicos : MonoBehaviour
     private Vector3 movementInput;
      Vector3 moveVector;
 
+     [SerializeField] float time = 8;
 
     [SerializeField] KeyCode uparrow;
     
@@ -162,5 +163,27 @@ public class MovimientosBasicos : MonoBehaviour
     }
     public void OnMove(InputAction.CallbackContext ctx) => movementInput = ctx.ReadValue<Vector3>();
 
-    
+    public void SpeedUp()
+    {
+      StartCoroutine(GottaGoFast());
+
+      IEnumerator GottaGoFast(){
+        spEed = 10;
+        WaitForSeconds wait = new WaitForSeconds(time);
+        yield return wait;
+        spEed = 5;  
+    }
+    }
+
+    public void SpeedDown()
+    {
+      StartCoroutine(GottaGoSlow());
+
+      IEnumerator GottaGoSlow(){
+        spEed = 2;
+        WaitForSeconds wait = new WaitForSeconds(time);
+        yield return wait;
+        spEed = 5;  
+    }
+    }
 }
