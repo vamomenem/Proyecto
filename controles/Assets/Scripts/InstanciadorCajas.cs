@@ -42,6 +42,7 @@ public class InstanciadorCajas : MonoBehaviour
     public void ClonarCajas()
     {
         Random.seed = (int)System.DateTime.Now.Ticks;
+        // Random.Range(int floor, int ceiling);
         numeroAleatorio = Random.Range(1,8);
         //Debug.Log("Random seed = " + numeroAleatorio);
 

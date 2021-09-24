@@ -8,26 +8,24 @@ public class Ensamblaje : MonoBehaviour
     public GameObject asamblePoint1;
     public GameObject asamblePoint2;
     public GameObject asamblePoint3;
-
     int indexOfSlots = 1;
-
-
-    private void OnCollisionEnter(Collision other){
-        Debug.Log(other.gameObject);
-        if (other.gameObject.tag == "Objeto" && other.transform.childCount > 0){
+    private void OnCollisionEnter(Collision coll)
+    {
+        Debug.Log(coll.gameObject);
+        if (coll.gameObject.tag == "Objeto" && coll.transform.childCount > 0){
             switch (indexOfSlots){
                 case 1:
                 indexOfSlots++;
-                    other.transform.position = asamblePoint1.transform.position;
+                    coll.transform.position = asamblePoint1.transform.position;
                     break;
                 case 2:
                 
                 indexOfSlots++;
-                    other.transform.position = asamblePoint2.transform.position;
+                    coll.transform.position = asamblePoint2.transform.position;
                     break;
                 case 3:
                 
-                    other.transform.position = asamblePoint3.transform.position;
+                    coll.transform.position = asamblePoint3.transform.position;
                     //craft
                     break;
 
@@ -45,5 +43,4 @@ public class Ensamblaje : MonoBehaviour
         other.gameObject.transform.position = asamblePoint1.transform.position;
         }*/
     }
-    
 }

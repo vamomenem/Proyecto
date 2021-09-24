@@ -4291,6 +4291,7 @@ GameObject:
   - component: {fileID: 1220061909}
   - component: {fileID: 1220061908}
   - component: {fileID: 1220061907}
+  - component: {fileID: 1220061914}
   m_Layer: 0
   m_Name: Tester (2)
   m_TagString: Player
@@ -4465,6 +4466,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1220061914
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220061906}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1273015946
 GameObject:
   m_ObjectHideFlags: 0
@@ -6286,6 +6300,7 @@ GameObject:
   - component: {fileID: 1987060512}
   - component: {fileID: 1987060511}
   - component: {fileID: 1987060510}
+  - component: {fileID: 1987060517}
   m_Layer: 0
   m_Name: Tester (1)
   m_TagString: Player
@@ -6460,6 +6475,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1987060517
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987060509}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2007172876 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 380612735340803645, guid: 989ba3addd8383b46894ec24172e7c56, type: 3}
@@ -6742,17 +6770,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 380612735340803643, guid: 989ba3addd8383b46894ec24172e7c56, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 380612735340803645, guid: 989ba3addd8383b46894ec24172e7c56, type: 3}
       propertyPath: m_Name
       value: Cube
-      objectReference: {fileID: 0}
-    - target: {fileID: 380612735340803645, guid: 989ba3addd8383b46894ec24172e7c56, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 989ba3addd8383b46894ec24172e7c56, type: 3}

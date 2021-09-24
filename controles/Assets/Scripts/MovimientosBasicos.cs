@@ -23,7 +23,7 @@ public class MovimientosBasicos : MonoBehaviour
     float TurnSmoothVelocity;
 
 
-    float horizontal = 0;
+ float horizontal = 0;
    float vertical = 0;
     private void Update()
     {
@@ -68,11 +68,11 @@ public class MovimientosBasicos : MonoBehaviour
               break;
             case -1:
               break;
-         } 
+         }
       } else if (Input.GetKeyUp(downarrow)){
         switch (vertical){
             case 1:
-              vertical = 0;
+             
               break;
             case 0:
             vertical = 0;            
@@ -100,11 +100,10 @@ public class MovimientosBasicos : MonoBehaviour
             case 1:
               horizontal = 0;
               break;
-            case 0:
-            horizontal = -1;            
+            case 0:            
               break;
             case -1:
-            horizontal = -1;
+              horizontal = 0;
               break;
         }
       }
@@ -127,13 +126,14 @@ public class MovimientosBasicos : MonoBehaviour
               horizontal = 0;
               break;
             case 0:
-             horizontal = 0;           
+             horizontal = 0;          
               break;
             case -1:
              horizontal = 0;
               break;
         }
       }
+
 
 
 
@@ -185,5 +185,10 @@ public class MovimientosBasicos : MonoBehaviour
         yield return wait;
         spEed = 5;  
     }
+    }
+
+    public void BorrarMiObjeto()
+    {
+      //gameObject.transform.FindCh
     }
 }
