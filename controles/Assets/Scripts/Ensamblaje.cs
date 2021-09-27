@@ -9,6 +9,11 @@ public class Ensamblaje : MonoBehaviour
     public GameObject asamblePoint2;
     public GameObject asamblePoint3;
     int indexOfSlots = 1;
+
+    private void OnTriggerEnter(Collision collision){
+
+    }
+    
     private void OnCollisionEnter(Collision coll)
     {
         Debug.Log(coll.gameObject);
