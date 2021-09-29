@@ -10,12 +10,8 @@ public class Ensamblaje : MonoBehaviour
     public GameObject asamblePoint3;
     int indexOfSlots = 1;
 
-    private void OnTriggerEnter(Collision collision){
+    private void OnTriggerEnter(Collider coll){
 
-    }
-    
-    private void OnCollisionEnter(Collision coll)
-    {
         Debug.Log(coll.gameObject);
         if (coll.gameObject.tag == "Objeto" && coll.transform.childCount > 0){
             switch (indexOfSlots){
@@ -36,9 +32,16 @@ public class Ensamblaje : MonoBehaviour
 
 
             }
-        }
+        }  
 
-        /*if(other.transform.childCount > 0){
+    }
+    
+    /*private void OnCollisionEnter(Collision coll)
+    {
+        
+        
+
+        if(other.transform.childCount > 0){
         mueble = other.gameObject.transform.GetChild(0);
         mueble = asamblePoint1.transform;
         other.gameObject.transform.SetParent(asamblePoint1.transform);
@@ -46,6 +49,6 @@ public class Ensamblaje : MonoBehaviour
 
         if(other.tag == "Objeto"){
         other.gameObject.transform.position = asamblePoint1.transform.position;
-        }*/
-    }
+        }
+    }*/
 }
