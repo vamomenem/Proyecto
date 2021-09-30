@@ -8,7 +8,7 @@ public class TrashBin : MonoBehaviour
     {
         if (coll.transform.parent == null && coll.gameObject.tag == "Objeto"){
            
-           Destroy(gameObject);
+           Destroy(coll.gameObject);
         }
     }
 }

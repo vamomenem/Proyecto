@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2166,7 +2166,6 @@ GameObject:
   - component: {fileID: 670953672}
   - component: {fileID: 670953675}
   - component: {fileID: 670953674}
-  - component: {fileID: 670953673}
   m_Layer: 0
   m_Name: Hand
   m_TagString: Untagged
@@ -2189,22 +2188,6 @@ Transform:
   m_Father: {fileID: 1987060516}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &670953673
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 670953671}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &670953674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3395,7 +3378,6 @@ GameObject:
   - component: {fileID: 1007113414}
   - component: {fileID: 1007113417}
   - component: {fileID: 1007113416}
-  - component: {fileID: 1007113415}
   m_Layer: 0
   m_Name: Hand
   m_TagString: Untagged
@@ -3418,22 +3400,6 @@ Transform:
   m_Father: {fileID: 1220061913}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &1007113415
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1007113413}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &1007113416
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4292,7 +4258,6 @@ GameObject:
   - component: {fileID: 1220061908}
   - component: {fileID: 1220061907}
   - component: {fileID: 1220061914}
-  - component: {fileID: 1220061915}
   m_Layer: 0
   m_Name: Tester (2)
   m_TagString: Player
@@ -4400,7 +4365,7 @@ CharacterController:
   m_Radius: 0.5
   m_SlopeLimit: 30
   m_StepOffset: 0.2
-  m_SkinWidth: 0.25
+  m_SkinWidth: 0.1
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1220061911
@@ -4476,23 +4441,10 @@ BoxCollider:
   m_GameObject: {fileID: 1220061906}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1220061915
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1220061906}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7d1aad154064bd41a25f1ef2c1ac01f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  knockbackStrength: 20
+  m_Size: {x: 1, y: 1, z: 1.1094809}
+  m_Center: {x: 0, y: 0, z: 0.05474043}
 --- !u!1 &1273015946
 GameObject:
   m_ObjectHideFlags: 0
@@ -4639,7 +4591,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1320093885}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.508905, y: 1.01, z: -3.62}
+  m_LocalPosition: {x: 16.508905, y: 1.01, z: -0.36}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6437,7 +6389,6 @@ GameObject:
   - component: {fileID: 1987060511}
   - component: {fileID: 1987060510}
   - component: {fileID: 1987060517}
-  - component: {fileID: 1987060518}
   m_Layer: 0
   m_Name: Tester (1)
   m_TagString: Player
@@ -6545,7 +6496,7 @@ CharacterController:
   m_Radius: 0.5
   m_SlopeLimit: 30
   m_StepOffset: 0.2
-  m_SkinWidth: 0.25
+  m_SkinWidth: 0.1
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1987060514
@@ -6621,23 +6572,10 @@ BoxCollider:
   m_GameObject: {fileID: 1987060509}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1987060518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1987060509}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7d1aad154064bd41a25f1ef2c1ac01f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  knockbackStrength: 5
+  m_Size: {x: 1, y: 1, z: 1.1243029}
+  m_Center: {x: 0, y: 0, z: 0.062151432}
 --- !u!1 &2007172876 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 380612735340803645, guid: 989ba3addd8383b46894ec24172e7c56, type: 3}
