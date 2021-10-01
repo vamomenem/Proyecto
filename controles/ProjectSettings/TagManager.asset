@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Objeto
   - cajita
+  - Knockback
   layers:
   - Default
   - TransparentFX

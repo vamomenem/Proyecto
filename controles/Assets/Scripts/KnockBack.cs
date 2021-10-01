@@ -6,22 +6,36 @@ public class KnockBack : MonoBehaviour
 {
     [SerializeField] private float knockbackStrength;
 
-    
-        public  Rigidbody rb;
-    private void OnTriggerEnter(Collider collision){
-        
+    public  Rigidbody rb;
+    private CharacterController ch;
 
+    //private Animator animator;
+
+    private void OnTriggerEnter(Collider collision){
+
+        Debug.Log("1"); 
+        
         if(collision.gameObject.tag == "Player"){
 
             rb = collision.gameObject.GetComponent<Rigidbody>();
 
-            Debug.Log("wee");
+            ch = collision.gameObject.GetComponent<CharacterController>();
+
+            Debug.Log("2");
 
             Vector3 direccion = collision.transform.position - transform.position;
             direccion.y = 0;
-           // rb.velocity = direccion * knockbackStrength;
-            rb.AddForce(-direccion.normalized * knockbackStrength, ForceMode.Impulse);
-            // rb.AddForce(direccion.normalized * knockbackStrength)
+
+           //ch.
+
+
+           //animator = collision.gameObject.GetComponent<Animator>();
+           //animator.SetBool("Impacto", true);
+
+            //ch.Move(direccion.normalized * knockbackStrength);
+
+            //rb.AddForce(direccion.normalized * knockbackStrength, ForceMode.Impulse);
+            //rb.AddForce(-direccion.normalized * knockbackStrength);
         }
     }
 }
