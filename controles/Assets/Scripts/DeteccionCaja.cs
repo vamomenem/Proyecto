@@ -20,18 +20,20 @@ public class DeteccionCaja : MonoBehaviour
 		Destroy(gameObject);
 	}
 
-    if (num_Powerup == 1)
-    {
+    if (num_Powerup == 1){
        PowerUpSpeed(other);
     }
 
-    if (num_Powerup == 2)
-    {
+    if (num_Powerup == 2){
        PowerDownSpeed(other);
     }
 
+    if (num_Powerup == 3){
+       BorrarObjetoPropio(other);
     }
-
+        
+  }
+    
     private void PowerUpSpeed(Collision player)
     {
         MovimientosBasicos mov = player.gameObject.GetComponent<MovimientosBasicos>();
@@ -55,9 +57,12 @@ public class DeteccionCaja : MonoBehaviour
         //aumenta la fuerza del jugador
     }
 
-    private void BorrarObjetoPropio()
+    private void BorrarObjetoPropio(Collision player)
     {
-        //borra el objeto que tienes en la mano
+        Transform hand1 = player.transform.Find("Hand");
+        Transform handpoint = hand1.Find("handPoint");
+        ObjectManager obj = handpoint.gameObject.GetComponent<ObjectManager>();
+        obj.BorrarMiObjeto();
     }
 
     private void BorrarObjetoAjeno()

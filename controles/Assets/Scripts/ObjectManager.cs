@@ -5,9 +5,22 @@ using UnityEngine;
 public class ObjectManager : MonoBehaviour
 {
     GameObject objeto;
-    string coso;
     public void BorrarMiObjeto()
     {
-      gameObject.transform.Find(coso);
+      objeto = FindFirstChildWithTag(gameObject, "Objeto");
+      Destroy(objeto);
+    }
+
+    public GameObject FindFirstChildWithTag(GameObject parent, string tag){
+      int count = parent.transform.childCount;
+
+      for (int i = 0; i < count; i++){
+        Transform child = parent.transform.GetChild(i);
+        if (child.tag == tag){
+          return child.gameObject;
+        }
+
+      }
+      return null;
     }
 }
