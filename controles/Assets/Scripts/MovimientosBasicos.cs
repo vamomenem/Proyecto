@@ -187,8 +187,4 @@ public class MovimientosBasicos : MonoBehaviour
     }
     }
 
-    public void BorrarMiObjeto()
-    {
-      //gameObject.transform.FindCh
-    }
 }

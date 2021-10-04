@@ -11,11 +11,11 @@ public class KnockBack : MonoBehaviour
 
     //private Animator animator;
 
-    private void OnTriggerEnter(Collider collision){
+    private void OnTriggerStay(Collider collision){
 
-        Debug.Log("1"); 
+        //Debug.Log("1"); 
         
-        if(collision.gameObject.tag == "Player"){
+        if(Input.GetKeyDown("e") && collision.gameObject.tag == "Player"){
 
             //rb = collision.gameObject.GetComponent<Rigidbody>();
 
