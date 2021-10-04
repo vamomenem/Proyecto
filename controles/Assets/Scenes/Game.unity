@@ -2649,7 +2649,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   knockbackStrength: 0
-  rb: {fileID: 0}
 --- !u!1 &849275579
 GameObject:
   m_ObjectHideFlags: 0
@@ -4530,7 +4529,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1220061906}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 10d2fa8fc470dc94c8fb97140e0639fd, type: 2}
   m_CullingMode: 0
@@ -5295,7 +5294,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   knockbackStrength: 10
-  rb: {fileID: 0}
 --- !u!54 &1545860941
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6761,8 +6759,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7d1aad154064bd41a25f1ef2c1ac01f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  knockbackStrength: 10
-  rb: {fileID: 0}
+  knockbackStrength: 50
 --- !u!1 &2007172876 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 380612735340803645, guid: 989ba3addd8383b46894ec24172e7c56, type: 3}

@@ -6,7 +6,7 @@ public class KnockBack : MonoBehaviour
 {
     [SerializeField] private float knockbackStrength;
 
-    public  Rigidbody rb;
+    //public  Rigidbody rb;
     private CharacterController ch;
 
     //private Animator animator;
@@ -17,7 +17,7 @@ public class KnockBack : MonoBehaviour
         
         if(collision.gameObject.tag == "Player"){
 
-            rb = collision.gameObject.GetComponent<Rigidbody>();
+            //rb = collision.gameObject.GetComponent<Rigidbody>();
 
             ch = collision.gameObject.GetComponent<CharacterController>();
 
@@ -26,8 +26,7 @@ public class KnockBack : MonoBehaviour
             Vector3 direccion = collision.transform.position - transform.position;
             direccion.y = 0;
 
-           //ch.
-
+            ch.SimpleMove(direccion.normalized * knockbackStrength);
 
            //animator = collision.gameObject.GetComponent<Animator>();
            //animator.SetBool("Impacto", true);
