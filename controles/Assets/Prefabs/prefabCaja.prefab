@@ -145,3 +145,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c62ac78cff29af408efe433439410e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IC: {fileID: 0}
+  hand1: {fileID: 0}
+  handp: {fileID: 0}
+  Objeto: {fileID: 380612735340803645, guid: 989ba3addd8383b46894ec24172e7c56, type: 3}
+  Caja: {fileID: 7685708483662105495}
+  Ignore: 1

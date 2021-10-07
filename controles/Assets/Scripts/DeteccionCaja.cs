@@ -6,30 +6,36 @@ public class DeteccionCaja : MonoBehaviour
 {
     public static int num_Powerup = 0;
     public InstanciadorCajas IC;
+    public Collision player;
+    public Transform hand1;
+    public Transform handp;
+    
     void Start ()
     {
-       IC = GameObject.FindGameObjectWithTag("GameController").GetComponent<InstanciadorCajas>();
+       //IC = GameObject.FindGameObjectWithTag("GameController").GetComponent<InstanciadorCajas>();
     }
 
     private void OnCollisionEnter(Collision other) {
     
 	if(other.gameObject.tag == "Player")
     {
+        player = other;
         num_Powerup = Random.Range(1,4);
         Debug.Log(num_Powerup);
+        Debug.Log(player.gameObject);
 		Destroy(gameObject);
 	}
 
     if (num_Powerup == 1){
-       PowerUpSpeed(other);
+       PowerUpSpeed(player);
     }
 
     if (num_Powerup == 2){
-       PowerDownSpeed(other);
+       PowerDownSpeed(player);
     }
 
     if (num_Powerup == 3){
-       BorrarObjetoPropio(other);
+       BorrarObjetoPropio(player);
     }
         
   }
@@ -59,9 +65,9 @@ public class DeteccionCaja : MonoBehaviour
 
     private void BorrarObjetoPropio(Collision player)
     {
-        Transform hand1 = player.transform.Find("Hand");
-        Transform handpoint = hand1.Find("handPoint");
-        ObjectManager obj = handpoint.gameObject.GetComponent<ObjectManager>();
+        hand1 = player.transform.Find("Hand");
+        handp = hand1.Find("handPoint");
+        ObjectManager obj = handp.gameObject.GetComponent<ObjectManager>();
         obj.BorrarMiObjeto();
     }
 
