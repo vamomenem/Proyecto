@@ -148,6 +148,5 @@ MonoBehaviour:
   IC: {fileID: 0}
   hand1: {fileID: 0}
   handp: {fileID: 0}
-  Objeto: {fileID: 380612735340803645, guid: 989ba3addd8383b46894ec24172e7c56, type: 3}
-  Caja: {fileID: 7685708483662105495}
-  Ignore: 1
+  player1: {fileID: 6240120398875881562, guid: 50325f78fa8067c419ec153db213d5d7, type: 3}
+  player2: {fileID: 0}

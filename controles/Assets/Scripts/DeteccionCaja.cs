@@ -9,6 +9,8 @@ public class DeteccionCaja : MonoBehaviour
     public Collision player;
     public Transform hand1;
     public Transform handp;
+    public GameObject player1;
+    public GameObject player2;
     
     void Start ()
     {
@@ -20,7 +22,7 @@ public class DeteccionCaja : MonoBehaviour
 	if(other.gameObject.tag == "Player")
     {
         player = other;
-        num_Powerup = Random.Range(1,4);
+        num_Powerup = Random.Range(1,5);
         Debug.Log(num_Powerup);
         Debug.Log(player.gameObject);
 		Destroy(gameObject);
@@ -36,6 +38,10 @@ public class DeteccionCaja : MonoBehaviour
 
     if (num_Powerup == 3){
        BorrarObjetoPropio(player);
+    }
+
+    if (num_Powerup == 4){
+       BorrarObjetoAjeno(player);
     }
         
   }
@@ -71,8 +77,20 @@ public class DeteccionCaja : MonoBehaviour
         obj.BorrarMiObjeto();
     }
 
-    private void BorrarObjetoAjeno()
+    private void BorrarObjetoAjeno(Collision player)
     {
-        //borra el objeto que tiene en la mano el jugador enemigo
+        if(player.gameObject.name == "Tester (1)"){
+        hand1 = player1.transform.Find("Hand");
+        handp = hand1.Find("handPoint");
+        ObjectManager obj = handp.gameObject.GetComponent<ObjectManager>();
+        obj.BorrarMiObjeto();
+        }
+
+        if(player.gameObject.name == "Tester (2)"){
+        hand1 = player2.transform.Find("Hand");
+        handp = hand1.Find("handPoint");
+        ObjectManager obj = handp.gameObject.GetComponent<ObjectManager>();
+        obj.BorrarMiObjeto();
+        }
     }
 }

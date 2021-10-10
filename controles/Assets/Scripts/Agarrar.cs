@@ -17,6 +17,7 @@ public class Agarrar : MonoBehaviour
             {
                 other.GetComponent<Rigidbody>().useGravity = false;
                 other.GetComponent<Rigidbody>().isKinematic = true;
+                other.GetComponent<Collider>().enabled = false;
                 if (other.gameObject.GetComponentInParent<InstanciadorObjetos>()){
                     InstanciadorObjetos insta = other.transform.GetComponentInParent<InstanciadorObjetos>();
                     insta.hasObjectInIt = false;
@@ -31,6 +32,7 @@ public class Agarrar : MonoBehaviour
             {
                 other.GetComponent<Rigidbody>().useGravity = true;
                 other.GetComponent<Rigidbody>().isKinematic = false;
+                other.GetComponent<Collider>().enabled = true;
                 other.transform.position = handPoint.transform.position;
                 other.gameObject.transform.SetParent(null);
                 pickedObject = null;
