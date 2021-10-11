@@ -7,8 +7,10 @@ public class ObjectManager : MonoBehaviour
     GameObject objeto;
     public void BorrarMiObjeto()
     {
+      if(objeto.transform.childCount >= 1){
       objeto = FindFirstChildWithTag(gameObject, "Objeto");
       Destroy(objeto);
+      }
     }
 
     public GameObject FindFirstChildWithTag(GameObject parent, string tag){

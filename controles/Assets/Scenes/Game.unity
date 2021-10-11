@@ -3465,7 +3465,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1007113414}
   - component: {fileID: 1007113417}
-  - component: {fileID: 1007113416}
+  - component: {fileID: 1007113415}
   m_Layer: 0
   m_Name: Hand
   m_TagString: Untagged
@@ -3488,7 +3488,7 @@ Transform:
   m_Father: {fileID: 1220061913}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1007113416
+--- !u!114 &1007113415
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3497,10 +3497,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1007113413}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8207e210fa6f87489ff29a8e4ad884b, type: 3}
+  m_Script: {fileID: 11500000, guid: 60d21c2dfcf83ad47ba3ebcf982dddf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  handPoint: {fileID: 1357507347}
+  handPoint: {fileID: 0}
   childFound: 
 --- !u!65 &1007113417
 BoxCollider:
@@ -4347,6 +4347,7 @@ GameObject:
   - component: {fileID: 1220061907}
   - component: {fileID: 1220061914}
   - component: {fileID: 1220061915}
+  - component: {fileID: 1220061916}
   m_Layer: 0
   m_Name: Tester (2)
   m_TagString: Player
@@ -4514,7 +4515,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1220061906}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10, y: 1, z: 14}
+  m_LocalPosition: {x: -0.82, y: 1, z: 14}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1007113414}
@@ -4553,6 +4554,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1220061916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220061906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38362e90787901c43bacc69b3d72af38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  knockbackStrength: 50
 --- !u!1 &1273015946
 GameObject:
   m_ObjectHideFlags: 0
@@ -4871,6 +4885,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1357507348}
+  - component: {fileID: 1357507349}
   m_Layer: 0
   m_Name: handPoint
   m_TagString: Untagged
@@ -4892,6 +4907,18 @@ Transform:
   m_Father: {fileID: 1007113414}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1357507349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357507347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48d488628895b7f4098fee3c901c41ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1375879509
 GameObject:
   m_ObjectHideFlags: 0
@@ -6740,7 +6767,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1987060509}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -10, y: 1, z: 12}
+  m_LocalPosition: {x: -0.63, y: 1, z: 12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 670953672}

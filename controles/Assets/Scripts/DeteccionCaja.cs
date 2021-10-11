@@ -5,12 +5,10 @@ using UnityEngine;
 public class DeteccionCaja : MonoBehaviour
 {
     public static int num_Powerup = 0;
-    public InstanciadorCajas IC;
+    //public InstanciadorCajas IC;
     public Collision player;
     public Transform hand1;
     public Transform handp;
-    public GameObject player1;
-    public GameObject player2;
     
     void Start ()
     {
@@ -59,14 +57,25 @@ public class DeteccionCaja : MonoBehaviour
         mov.SpeedDown();
     } 
 
-    private void PowerUpFuerza()
+    private void PowerUpFuerza(Collision player)
     {
-        //aumenta la fuerza del jugador
+        GameObject player1 = GameObject.Find("Tester (1)");
+        GameObject player2 = GameObject.Find("Tester (2)");
+
+        if(player.gameObject.name == "Tester (1)"){
+            KnockBack knock = player1.gameObject.GetComponent<KnockBack>();
+            knock.KnockBackBuff();
+        }
+
+        if(player.gameObject.name == "Tester (2)"){
+            KnockBack1 knock1 = player1.gameObject.GetComponent<KnockBack1>();
+            knock1.KnockBackBuff();
+        }
     }
 
     private void PowerDownFuerza()
     {
-        //aumenta la fuerza del jugador
+        //disminuye la fuerza del jugador
     }
 
     private void BorrarObjetoPropio(Collision player)
@@ -79,15 +88,18 @@ public class DeteccionCaja : MonoBehaviour
 
     private void BorrarObjetoAjeno(Collision player)
     {
+        GameObject player1 = GameObject.Find("Tester (1)");
+        GameObject player2 = GameObject.Find("Tester (2)");
+
         if(player.gameObject.name == "Tester (1)"){
-        hand1 = player1.transform.Find("Hand");
+        hand1 = player2.transform.Find("Hand");
         handp = hand1.Find("handPoint");
         ObjectManager obj = handp.gameObject.GetComponent<ObjectManager>();
         obj.BorrarMiObjeto();
         }
 
         if(player.gameObject.name == "Tester (2)"){
-        hand1 = player2.transform.Find("Hand");
+        hand1 = player1.transform.Find("Hand");
         handp = hand1.Find("handPoint");
         ObjectManager obj = handp.gameObject.GetComponent<ObjectManager>();
         obj.BorrarMiObjeto();

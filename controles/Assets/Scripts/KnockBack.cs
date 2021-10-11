@@ -5,6 +5,7 @@ using UnityEngine;
 public class KnockBack : MonoBehaviour
 {
     [SerializeField] private float knockbackStrength;
+    float time = 8;
 
     //public  Rigidbody rb;
     private CharacterController ch;
@@ -35,6 +36,18 @@ public class KnockBack : MonoBehaviour
 
             //rb.AddForce(direccion.normalized * knockbackStrength, ForceMode.Impulse);
             //rb.AddForce(-direccion.normalized * knockbackStrength);
+        }
+    }
+
+    public void KnockBackBuff()
+    {
+       StartCoroutine(Buff());
+
+      IEnumerator Buff(){
+        knockbackStrength = 100;
+        WaitForSeconds wait = new WaitForSeconds(time);
+        yield return wait;
+        knockbackStrength = 50; 
         }
     }
 }
