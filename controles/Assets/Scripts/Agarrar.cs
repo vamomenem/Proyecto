@@ -30,11 +30,12 @@ public class Agarrar : MonoBehaviour
             }
             if (Input.GetKeyDown("f") && isHoldingSomething)
             {
-                other.GetComponent<Rigidbody>().useGravity = true;
-                other.GetComponent<Rigidbody>().isKinematic = false;
-                other.GetComponent<Collider>().enabled = true;
-                other.transform.position = handPoint.transform.position;
-                other.gameObject.transform.SetParent(null);
+                pickedObject = other.gameObject;
+                pickedObject.GetComponent<Rigidbody>().useGravity = true;
+                pickedObject.GetComponent<Rigidbody>().isKinematic = false;
+                pickedObject.GetComponent<Collider>().enabled = true;
+                pickedObject.transform.position = handPoint.transform.position;
+                pickedObject.gameObject.transform.SetParent(null);
                 pickedObject = null;
                 StartCoroutine(delayCopado2());
                 return;
