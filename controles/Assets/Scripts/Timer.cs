@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Timer : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class Timer : MonoBehaviour
 
     void Start ()
     {
-        Contador.GetComponent<Text>().text = min + ":" + secondsLeft;
+        Contador.GetComponent<TextMeshProUGUI>().text = min + ":" + secondsLeft;
     }
 
     void Update ()
@@ -30,10 +31,10 @@ public class Timer : MonoBehaviour
         secondsLeft -= 1;
         if (secondsLeft < 10)
         {
-              Contador.GetComponent<Text>().text = min + ":0" + secondsLeft;
+              Contador.GetComponent<TextMeshProUGUI>().text = min + ":0" + secondsLeft;
         }else
         {
-             Contador.GetComponent<Text>().text = min + ":" + secondsLeft;
+             Contador.GetComponent<TextMeshProUGUI>().text = min + ":" + secondsLeft;
         }
         takingAway = false;
 
