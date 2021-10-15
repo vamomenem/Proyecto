@@ -13,19 +13,17 @@ public class KnockBack : MonoBehaviour
     //private Animator animator;
 
     private void OnTriggerStay(Collider collision){
-
-        //Debug.Log("1"); 
-        
+   
         if(Input.GetKeyDown("e") && collision.gameObject.tag == "Player"){
 
             //rb = collision.gameObject.GetComponent<Rigidbody>();
 
             ch = collision.gameObject.GetComponent<CharacterController>();
 
-            Debug.Log("2");
-
             Vector3 direccion = collision.transform.position - transform.position;
             direccion.y = 0;
+
+            FindObjectOfType<AudioManager>().Play("KnockBack");
 
             ch.SimpleMove(direccion.normalized * knockbackStrength);
 

@@ -7,9 +7,8 @@ public class Agarrar1 : MonoBehaviour
     private GameObject pickedObject;
     bool isHoldingSomething = false;
     public GameObject handPoint;
-    public string childFound;
-    private Transform item;
-    
+    //public string childFound;
+    //private Transform item;
 
     private void OnTriggerStay(Collider other)
     {
@@ -17,7 +16,7 @@ public class Agarrar1 : MonoBehaviour
             {
                 other.GetComponent<Rigidbody>().useGravity = false;
                 other.GetComponent<Rigidbody>().isKinematic = true;
-                other.GetComponent<Collider>().enabled = false;
+                other.GetComponent<Collider>().isTrigger = false;
                 if (other.gameObject.GetComponentInParent<InstanciadorObjetos>()){
                     InstanciadorObjetos insta = other.transform.GetComponentInParent<InstanciadorObjetos>();
                     insta.hasObjectInIt = false;
@@ -25,6 +24,7 @@ public class Agarrar1 : MonoBehaviour
                 other.transform.position = handPoint.transform.position;
                 other.gameObject.transform.SetParent(handPoint.gameObject.transform);
                 pickedObject = other.gameObject;
+                FindObjectOfType<AudioManager>().Play("PickupObject");
                 StartCoroutine(delayCopado());
                 return;
             }
@@ -32,16 +32,15 @@ public class Agarrar1 : MonoBehaviour
             {
                 other.GetComponent<Rigidbody>().useGravity = true;
                 other.GetComponent<Rigidbody>().isKinematic = false;
-                other.GetComponent<Collider>().enabled = true;
+                other.GetComponent<Collider>().isTrigger = true;
                 other.transform.position = handPoint.transform.position;
                 other.gameObject.transform.SetParent(null);
                 pickedObject = null;
+                FindObjectOfType<AudioManager>().Play("DropObject");
                 StartCoroutine(delayCopado2());
                 return;
             }
     }
-
-    
 
     IEnumerator delayCopado()
     {

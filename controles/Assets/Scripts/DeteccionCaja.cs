@@ -10,19 +10,18 @@ public class DeteccionCaja : MonoBehaviour
     public Transform hand1;
     public Transform handp;
     
-    void Start ()
+    /*void Start ()
     {
        //IC = GameObject.FindGameObjectWithTag("GameController").GetComponent<InstanciadorCajas>();
-    }
+    }*/
 
     private void OnCollisionEnter(Collision other) {
     
 	if(other.gameObject.tag == "Player")
     {
         player = other;
-        num_Powerup = Random.Range(1,5);
+        num_Powerup = Random.Range(1,6);
         Debug.Log(num_Powerup);
-        Debug.Log(player.gameObject);
 		Destroy(gameObject);
 	}
 
@@ -40,6 +39,10 @@ public class DeteccionCaja : MonoBehaviour
 
     if (num_Powerup == 4){
        BorrarObjetoAjeno(player);
+    }
+
+    if (num_Powerup == 5){
+        PowerUpFuerza(player);
     }
         
   }

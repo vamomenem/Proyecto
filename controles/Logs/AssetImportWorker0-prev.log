@@ -1,107 +1,74 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.13f1 (71691879b7f5) revision 7432472'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.1288; Version 2009; 64bit' Language: 'es' Physical Memory: 8072 MB
+OS: 'Windows 10 Pro; OS build 19044.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 16332 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Unity.exe
+D:\Program Files (x86)\Unity\2020.3.13f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Valentino/Documents/GitHub/Proyecto/controles
+C:/Users/Juan Martín/Documents/GitHub/Proyecto/controles
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49839
-Successfully changed project path to: C:/Users/Valentino/Documents/GitHub/Proyecto/controles
-C:/Users/Valentino/Documents/GitHub/Proyecto/controles
+53395
+Successfully changed project path to: C:/Users/Juan Martín/Documents/GitHub/Proyecto/controles
+C:/Users/Juan Martín/Documents/GitHub/Proyecto/controles
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 40.90 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 61.96 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Valentino/Documents/GitHub/Proyecto/controles/Assets
+[Subsystems] Discovering subsystems at path D:/Program Files (x86)/Unity/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Juan Martín/Documents/GitHub/Proyecto/controles/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Renderer: Radeon RX 570 Series (ID=0x67df)
     Vendor:   
-    VRAM:     4036 MB
-    Driver:   27.20.100.8681
+    VRAM:     4075 MB
+    Driver:   27.20.21002.2004
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
+Mono path[0] = 'D:/Program Files (x86)/Unity/2020.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files (x86)/Unity/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Program Files (x86)/Unity/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001847 seconds.
+Register platform support module: D:/Program Files (x86)/Unity/2020.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Program Files (x86)/Unity/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002311 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 39.50 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 54.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.087 seconds
+- Completed reload, in  1.809 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004260 seconds.
+Registered in 0.006207 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000020F79C34AF0 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.InputSystem.IntegrationTests.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F79AC5CE0 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7D720030 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F79EB9660 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F79EB9660 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7A33FBB0 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7A46DA00 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F79F9C830 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F79AD06F0 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7CE83030 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7A40DC30 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7CAA0230 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7A33FBB0 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7CBFD010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7D9BE030 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F79FBBC40 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7C9CA020 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7CAB1E40 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 36.30 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 55.94 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.174 seconds
+- Completed reload, in  1.571 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2055 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.8 MB.
-System memory in use after: 95.9 MB.
+System memory in use before: 95.7 MB.
+System memory in use after: 95.7 MB.
 
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2496.
-Total: 3.129900 ms (FindLiveObjects: 0.225000 ms CreateObjectMapping: 0.066300 ms MarkObjects: 2.714700 ms  DeleteObjects: 0.122600 ms)
+Total: 2.617700 ms (FindLiveObjects: 0.214300 ms CreateObjectMapping: 0.050500 ms MarkObjects: 2.275200 ms  DeleteObjects: 0.076300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -115,82 +82,530 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Acciones.inputactions
-  artifactKey: Guid(3312bfa7d52026445aabb16123bfbe8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Acciones.inputactions using Guid(3312bfa7d52026445aabb16123bfbe8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f9bc0b5792a6e0540a35eb10669c64d') in 0.068065 seconds 
-  Import took 0.071414 seconds .
+  path: Assets/Audio
+  artifactKey: Guid(01cb1eedefd341f4cb62229f96c8d3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio using Guid(01cb1eedefd341f4cb62229f96c8d3f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e2b72c159584636b91c598e9ca4e44') in 0.015406 seconds 
+  Import took 0.019340 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 116.442941 seconds.
-  path: Assets/Scripts/NewBehaviourScript.cs
-  artifactKey: Guid(1a7c5470b3e9c5c428de596b7f3a012d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NewBehaviourScript.cs using Guid(1a7c5470b3e9c5c428de596b7f3a012d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387ffe4b142bbf6643f218fc11352247') in 0.029415 seconds 
-  Import took 0.033810 seconds .
+  Time since last request: 28.599454 seconds.
+  path: Assets/Audio/Breaking Item.wav
+  artifactKey: Guid(97c086948214df34293f3fabaebbc674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Breaking Item.wav using Guid(97c086948214df34293f3fabaebbc674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71304c49168fb7b824e2b297d6adafdb') in 0.125606 seconds 
+  Import took 0.129503 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001343 seconds.
-  path: Assets/Scripts/NewBehaviourScript.cs
-  artifactKey: Guid(1a7c5470b3e9c5c428de596b7f3a012d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NewBehaviourScript.cs using Guid(1a7c5470b3e9c5c428de596b7f3a012d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387ffe4b142bbf6643f218fc11352247') in 0.004930 seconds 
-  Import took 0.009536 seconds .
+  Time since last request: 0.000221 seconds.
+  path: Assets/Audio/Gameplay Music 1.mp3
+  artifactKey: Guid(77ea3e0ef8e841f42973ea5e9bef4c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Gameplay Music 1.mp3 using Guid(77ea3e0ef8e841f42973ea5e9bef4c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0be68dadc397da3c2413493b430df02') in 0.023664 seconds 
+  Import took 0.027464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Audio/Pedido Entregado.mp3
+  artifactKey: Guid(19a86e080b7b96c4ca7a7b6045f35ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Pedido Entregado.mp3 using Guid(19a86e080b7b96c4ca7a7b6045f35ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b4cd60585c5ee4660c04361f342d2d') in 0.016714 seconds 
+  Import took 0.020250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Audio/Tarea Completada.wav
+  artifactKey: Guid(c7f735596707f0e4e847da03384e7ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Tarea Completada.wav using Guid(c7f735596707f0e4e847da03384e7ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208bd48be55844890acd08be69d1ee4d') in 0.017268 seconds 
+  Import took 0.020932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Audio/KnockBack.wav
+  artifactKey: Guid(95bab9f23aa11a54eb318c81e4340192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/KnockBack.wav using Guid(95bab9f23aa11a54eb318c81e4340192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2851e300a412705fffd1d9a5da9906ca') in 0.018329 seconds 
+  Import took 0.022178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Audio/Drop Item.wav
+  artifactKey: Guid(25766f5c2f9d3f241b82ee8827177e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Drop Item.wav using Guid(25766f5c2f9d3f241b82ee8827177e44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b843e50287593be09c3e97b964ab517') in 0.019180 seconds 
+  Import took 0.023285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Audio/Menu Theme 1.wav
+  artifactKey: Guid(cf0e05fb1e2f191469857478200ac68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Menu Theme 1.wav using Guid(cf0e05fb1e2f191469857478200ac68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d000096755dc51905b8fe9550d254c') in 0.019024 seconds 
+  Import took 0.023219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Audio/KnockBack.wav
+  artifactKey: Guid(95bab9f23aa11a54eb318c81e4340192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/KnockBack.wav using Guid(95bab9f23aa11a54eb318c81e4340192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2851e300a412705fffd1d9a5da9906ca') in 0.012719 seconds 
+  Import took 0.017880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Audio/Menu Theme 1.wav
+  artifactKey: Guid(cf0e05fb1e2f191469857478200ac68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Menu Theme 1.wav using Guid(cf0e05fb1e2f191469857478200ac68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d000096755dc51905b8fe9550d254c') in 0.011032 seconds 
+  Import took 0.014822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Audio/PickUp Object.wav
+  artifactKey: Guid(68db35ecf197a6f40937aba65f102c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/PickUp Object.wav using Guid(68db35ecf197a6f40937aba65f102c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5563dc25750c50c2c4e4613f472a45') in 0.018419 seconds 
+  Import took 0.022482 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003648 seconds.
+Registered in 0.007583 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000020F79F96000 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.InputSystem.IntegrationTests.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F79EB9660 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7A625450 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE0EFC030 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE0EFC030 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7D402F30 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7A629A30 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F79D5E630 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7A337BA0 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7A3E9020 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7DA1F020 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE04AE030 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F79E42010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7CDC3010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7A390020 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7C998510 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F79F9C830 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7D8F9450 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.124 seconds
+- Completed reload, in  1.767 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.9 MB.
+System memory in use after: 95.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2508.
+Total: 4.849800 ms (FindLiveObjects: 0.325100 ms CreateObjectMapping: 0.128800 ms MarkObjects: 4.295700 ms  DeleteObjects: 0.098300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007485 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.453 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.9 MB.
+System memory in use after: 95.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2511.
+Total: 2.611800 ms (FindLiveObjects: 0.228800 ms CreateObjectMapping: 0.048200 ms MarkObjects: 2.261100 ms  DeleteObjects: 0.072200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006656 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.581 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.0 MB.
+System memory in use after: 95.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2514.
+Total: 3.145300 ms (FindLiveObjects: 0.229400 ms CreateObjectMapping: 0.058300 ms MarkObjects: 2.776800 ms  DeleteObjects: 0.079000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006770 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.517 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.0 MB.
+System memory in use after: 95.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2517.
+Total: 3.495100 ms (FindLiveObjects: 0.272800 ms CreateObjectMapping: 0.054200 ms MarkObjects: 3.080900 ms  DeleteObjects: 0.085900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008820 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.500 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.9 MB.
+System memory in use after: 95.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2520.
+Total: 3.289300 ms (FindLiveObjects: 0.239000 ms CreateObjectMapping: 0.060200 ms MarkObjects: 2.912900 ms  DeleteObjects: 0.075300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006367 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.573 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.9 MB.
+System memory in use after: 95.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2523.
+Total: 3.110200 ms (FindLiveObjects: 0.212000 ms CreateObjectMapping: 0.047900 ms MarkObjects: 2.771900 ms  DeleteObjects: 0.076800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006761 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.495 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.9 MB.
+System memory in use after: 95.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2526.
+Total: 3.237000 ms (FindLiveObjects: 0.233600 ms CreateObjectMapping: 0.057800 ms MarkObjects: 2.864800 ms  DeleteObjects: 0.078800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007433 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.484 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.9 MB.
+System memory in use after: 95.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2529.
+Total: 2.554600 ms (FindLiveObjects: 0.213000 ms CreateObjectMapping: 0.050400 ms MarkObjects: 2.219600 ms  DeleteObjects: 0.070200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008188 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.630 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.0 MB.
+System memory in use after: 95.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2532.
+Total: 3.776700 ms (FindLiveObjects: 0.239800 ms CreateObjectMapping: 0.060200 ms MarkObjects: 3.354500 ms  DeleteObjects: 0.120300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008266 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.621 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.0 MB.
+System memory in use after: 95.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2535.
+Total: 2.836600 ms (FindLiveObjects: 0.216000 ms CreateObjectMapping: 0.048500 ms MarkObjects: 2.495500 ms  DeleteObjects: 0.074600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007640 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.665 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.0 MB.
+System memory in use after: 95.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2538.
+Total: 2.945600 ms (FindLiveObjects: 0.227000 ms CreateObjectMapping: 0.058100 ms MarkObjects: 2.580600 ms  DeleteObjects: 0.078500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3487.362187 seconds.
+  path: Assets/Scripts/CountdownController.cs
+  artifactKey: Guid(9e7d8286ed3f79649a9f2a1b4ae00a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CountdownController.cs using Guid(9e7d8286ed3f79649a9f2a1b4ae00a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b82ff809d47c26df1955699be9404c') in 0.045436 seconds 
+  Import took 0.051723 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009033 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.758 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2009 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.1 MB.
+System memory in use after: 95.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2542.
+Total: 2.609000 ms (FindLiveObjects: 0.181300 ms CreateObjectMapping: 0.048600 ms MarkObjects: 2.308300 ms  DeleteObjects: 0.069400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006754 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.531 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2009 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.0 MB.
+System memory in use after: 95.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2545.
+Total: 3.268500 ms (FindLiveObjects: 0.311100 ms CreateObjectMapping: 0.058900 ms MarkObjects: 2.826000 ms  DeleteObjects: 0.070500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 514.955839 seconds.
+  path: Assets/Scripts/CountdownController.cs
+  artifactKey: Guid(9e7d8286ed3f79649a9f2a1b4ae00a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CountdownController.cs using Guid(9e7d8286ed3f79649a9f2a1b4ae00a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e457420bbf47164f431387c332a3fb35') in 0.007575 seconds 
+  Import took 0.011529 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008048 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.523 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2009 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.9 MB.
-System memory in use after: 92.0 MB.
+System memory in use before: 95.1 MB.
+System memory in use after: 95.2 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2500.
-Total: 2.800800 ms (FindLiveObjects: 0.194100 ms CreateObjectMapping: 0.081800 ms MarkObjects: 2.426500 ms  DeleteObjects: 0.097300 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2548.
+Total: 4.751100 ms (FindLiveObjects: 0.338200 ms CreateObjectMapping: 0.134500 ms MarkObjects: 4.183000 ms  DeleteObjects: 0.093500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -205,58 +620,178 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004527 seconds.
+Registered in 0.007040 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000020F79F94020 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.InputSystem.IntegrationTests.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F79EB9660 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7DA28E50 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE14F7EE0 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE136ADA0 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE195BD00 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7A337BA0 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE19C4E50 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7A337BA0 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE0EDBE90 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7A337BA0 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7E148010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE028B010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020FA02AA950 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7A390020 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7C998510 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE1C94020 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7DA28E50 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.053 seconds
+- Completed reload, in  1.625 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2008 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.9 MB.
-System memory in use after: 92.0 MB.
+Unloading 2009 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.1 MB.
+System memory in use after: 95.2 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2502.
-Total: 2.704300 ms (FindLiveObjects: 0.190600 ms CreateObjectMapping: 0.066100 ms MarkObjects: 2.326800 ms  DeleteObjects: 0.119900 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2551.
+Total: 3.188700 ms (FindLiveObjects: 0.460400 ms CreateObjectMapping: 0.135700 ms MarkObjects: 2.511400 ms  DeleteObjects: 0.079500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007027 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.587 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2009 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.1 MB.
+System memory in use after: 95.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2554.
+Total: 4.359300 ms (FindLiveObjects: 0.275400 ms CreateObjectMapping: 0.062500 ms MarkObjects: 3.941200 ms  DeleteObjects: 0.078000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005481 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.526 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2009 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.1 MB.
+System memory in use after: 95.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2557.
+Total: 2.636700 ms (FindLiveObjects: 0.226800 ms CreateObjectMapping: 0.049300 ms MarkObjects: 2.279700 ms  DeleteObjects: 0.079700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007632 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.549 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2009 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.1 MB.
+System memory in use after: 95.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2560.
+Total: 3.352700 ms (FindLiveObjects: 0.247800 ms CreateObjectMapping: 0.067700 ms MarkObjects: 2.959900 ms  DeleteObjects: 0.075800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008400 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.649 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2009 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.1 MB.
+System memory in use after: 95.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2563.
+Total: 3.123800 ms (FindLiveObjects: 0.252600 ms CreateObjectMapping: 0.059200 ms MarkObjects: 2.729800 ms  DeleteObjects: 0.080800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008360 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.434 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2009 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.2 MB.
+System memory in use after: 95.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2566.
+Total: 2.667200 ms (FindLiveObjects: 0.232500 ms CreateObjectMapping: 0.058000 ms MarkObjects: 2.278300 ms  DeleteObjects: 0.095900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -270,445 +805,204 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.171313 seconds.
-  path: Assets/Scripts/mesacrafteo.cs
-  artifactKey: Guid(a3f63d86f631ed14387a99d3870fae31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/mesacrafteo.cs using Guid(a3f63d86f631ed14387a99d3870fae31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fdf655129ee4dbc104fe1de4664f5db') in 0.011317 seconds 
+  Time since last request: 2392.715685 seconds.
+  path: Assets/Scripts/KnockBack1.cs
+  artifactKey: Guid(38362e90787901c43bacc69b3d72af38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/KnockBack1.cs using Guid(38362e90787901c43bacc69b3d72af38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7c416211129cbefd77867c6d9b195e') in 0.014361 seconds 
+  Import took 0.018974 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007275 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.589 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2009 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.2 MB.
+System memory in use after: 95.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2569.
+Total: 2.745400 ms (FindLiveObjects: 0.277100 ms CreateObjectMapping: 0.062600 ms MarkObjects: 2.334100 ms  DeleteObjects: 0.069800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006222 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.434 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2009 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.1 MB.
+System memory in use after: 95.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2572.
+Total: 2.745900 ms (FindLiveObjects: 0.237900 ms CreateObjectMapping: 0.057300 ms MarkObjects: 2.376600 ms  DeleteObjects: 0.072500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007279 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.597 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2009 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.1 MB.
+System memory in use after: 95.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2575.
+Total: 3.031600 ms (FindLiveObjects: 0.252900 ms CreateObjectMapping: 0.062700 ms MarkObjects: 2.635600 ms  DeleteObjects: 0.078400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16706.582001 seconds.
+  path: Assets/Audio/AudioManager
+  artifactKey: Guid(839c9237fef94bb44a619f80acff0284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/AudioManager using Guid(839c9237fef94bb44a619f80acff0284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63256eff6e33c5b09eacb35bb664d531') in 0.081144 seconds 
+  Import took 0.243828 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005934 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.773 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2011 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.1 MB.
+System memory in use after: 95.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2580.
+Total: 3.127800 ms (FindLiveObjects: 0.222100 ms CreateObjectMapping: 0.050800 ms MarkObjects: 2.739200 ms  DeleteObjects: 0.114200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6.572931 seconds.
+  path: Assets/Audio/AudioManager/AudioManager.cs
+  artifactKey: Guid(465d9ab8a179c0e4e8b7c36c172b45ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/AudioManager/AudioManager.cs using Guid(465d9ab8a179c0e4e8b7c36c172b45ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3750d1bdf470e4ffc1931aa9ae7bb7ee') in 0.006615 seconds 
+  Import took 0.010162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 459.368565 seconds.
+  path: Assets/Audio/AudioManager/Sound.cs
+  artifactKey: Guid(9ce8d2b908335354eac3a5d09783eb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/AudioManager/Sound.cs using Guid(9ce8d2b908335354eac3a5d09783eb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c0feb6f2bc30359c08748135dea30a') in 0.011160 seconds 
+  Import took 0.017019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 249.301585 seconds.
+  path: Assets/Audio/AudioManager/AudioManager.prefab
+  artifactKey: Guid(5f7befa52f346e344835472b4202246a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/AudioManager/AudioManager.prefab using Guid(5f7befa52f346e344835472b4202246a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0007c5bb5c30c6b7094fdf3fa12bdc97') in 0.042195 seconds 
+  Import took 0.047255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000906 seconds.
+  path: Assets/Audio/AudioManager/AudioManager.prefab
+  artifactKey: Guid(5f7befa52f346e344835472b4202246a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/AudioManager/AudioManager.prefab using Guid(5f7befa52f346e344835472b4202246a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0007c5bb5c30c6b7094fdf3fa12bdc97') in 0.006932 seconds 
+  Import took 0.011204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 255.407694 seconds.
+  path: Assets/Scripts/Agarrar.cs
+  artifactKey: Guid(c8207e210fa6f87489ff29a8e4ad884b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Agarrar.cs using Guid(c8207e210fa6f87489ff29a8e4ad884b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c2f902be3e472deb01aebc9ded5184') in 0.012503 seconds 
   Import took 0.016691 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003817 seconds.
+Registered in 0.006696 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000020F79C32B10 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.InputSystem.IntegrationTests.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F79EB9660 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7E035020 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE144AF90 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7E005010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE16565D0 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE14D9760 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE1F36FE0 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE144AF90 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE092A010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE08DE020 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7E148010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F79E42010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020FA02A9EE0 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE195BD00 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE1571860 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7DDE1370 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7E035020 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.069 seconds
+- Completed reload, in  1.504 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2009 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.0 MB.
-System memory in use after: 92.1 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2506.
-Total: 2.894000 ms (FindLiveObjects: 0.178100 ms CreateObjectMapping: 0.062600 ms MarkObjects: 2.559000 ms  DeleteObjects: 0.093300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005511 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000020F79F94020 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.InputSystem.IntegrationTests.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F79EB9660 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7E198020 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE144AF90 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F79F5C010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE195BD00 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7DA1F020 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE03369D0 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7A337BA0 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE0EDBBA0 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7DA1F020 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7E148010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE1B46040 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7E037D30 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE1C10010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7DDE1370 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE1D06010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7DE74E20 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.106 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2009 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.0 MB.
-System memory in use after: 92.1 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2509.
-Total: 3.106100 ms (FindLiveObjects: 0.277200 ms CreateObjectMapping: 0.060300 ms MarkObjects: 2.649300 ms  DeleteObjects: 0.118100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 588.147714 seconds.
-  path: Assets/Scripts/mesacrafteo.cs
-  artifactKey: Guid(a3f63d86f631ed14387a99d3870fae31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/mesacrafteo.cs using Guid(a3f63d86f631ed14387a99d3870fae31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351104de46407de746b1b5fbdc827357') in 0.005028 seconds 
-  Import took 0.008103 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.475246 seconds.
-  path: Assets/ItemInfo.cs
-  artifactKey: Guid(68975977650ebc14c9ccfbbbb7396f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ItemInfo.cs using Guid(68975977650ebc14c9ccfbbbb7396f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9c92e694dbe08546596c52226479fb') in 0.011203 seconds 
-  Import took 0.016326 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004717 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000020F79F905B0 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.InputSystem.IntegrationTests.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F79EB9660 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE15CC420 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE14F7EE0 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE10AE020 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7CF6D010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7A629A30 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020FA08A7D90 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7A522020 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F79EED250 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F79D93F90 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7E148010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE144AF90 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7E037D30 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE028B010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7E254010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020FA038DF90 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE15CC420 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.309 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2010 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.1 MB.
-System memory in use after: 92.2 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2513.
-Total: 2.502100 ms (FindLiveObjects: 0.175300 ms CreateObjectMapping: 0.060500 ms MarkObjects: 2.163000 ms  DeleteObjects: 0.102400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005066 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000020F79C34AF0 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.InputSystem.IntegrationTests.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F79EB9660 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE15CC420 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020FA0082010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020FA0082010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7CF6D010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7DC8B010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE18B3D80 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020FA0082010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE00D6020 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7DC8B010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7E148010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE0111010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020FA0262010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE144AF90 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE1832E30 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE1F36FE0 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE15CC420 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.102 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2010 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.1 MB.
-System memory in use after: 92.2 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2516.
-Total: 2.693300 ms (FindLiveObjects: 0.198600 ms CreateObjectMapping: 0.070300 ms MarkObjects: 2.322100 ms  DeleteObjects: 0.101200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 91.834271 seconds.
-  path: Assets/ItemInfo.cs
-  artifactKey: Guid(68975977650ebc14c9ccfbbbb7396f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ItemInfo.cs using Guid(68975977650ebc14c9ccfbbbb7396f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1ca103ea7e6bb9cb921e568adefaba') in 0.005124 seconds 
-  Import took 0.008228 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003782 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000020F79F905B0 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.InputSystem.IntegrationTests.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE093C020 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE15CC420 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7DFE3040 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE00E6030 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE16565D0 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7DFE3040 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE1F36FE0 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7DFE3040 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020FA092B020 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7DFE3040 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7E148010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE0736020 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7DF1B030 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE028B010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE18B3D80 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020FA0332020 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE15CC420 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.035 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2010 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.1 MB.
-System memory in use after: 92.2 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2519.
-Total: 2.600900 ms (FindLiveObjects: 0.278200 ms CreateObjectMapping: 0.126900 ms MarkObjects: 2.123000 ms  DeleteObjects: 0.071600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 244.412300 seconds.
-  path: Assets/ItemInfo.cs
-  artifactKey: Guid(68975977650ebc14c9ccfbbbb7396f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ItemInfo.cs using Guid(68975977650ebc14c9ccfbbbb7396f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4adaf8394e098ecb25d12fb70f032770') in 0.005134 seconds 
-  Import took 0.008196 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.742928 seconds.
-  path: Assets/ParteSilla.asset
-  artifactKey: Guid(d321a57f0994dcd4a80b4a45f9ae071b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParteSilla.asset using Guid(d321a57f0994dcd4a80b4a45f9ae071b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d31772d2c796cefc8810d641934457') in 0.039467 seconds 
-  Import took 0.045273 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 116.253741 seconds.
-  path: Assets/ObjetoInfo.cs
-  artifactKey: Guid(5bbf6305caa66654889cb09d34cac060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ObjetoInfo.cs using Guid(5bbf6305caa66654889cb09d34cac060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58733313a461174480947a30be349c5c') in 0.012242 seconds 
-  Import took 0.018356 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003784 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000020F79F91050 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.InputSystem.IntegrationTests.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F79EB9660 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE18173D0 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE0471010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE0471010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7DC93020 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F79F84030 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020FA02A4020 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE0471010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE0EDA020 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F79F84030 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7E148010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE0111010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7DF1B030 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7D4CF020 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7C998510 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020FA0A33020 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE18173D0 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.116 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2011 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.2 MB.
-System memory in use after: 92.3 MB.
+System memory in use before: 95.2 MB.
+System memory in use after: 95.2 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2523.
-Total: 2.627200 ms (FindLiveObjects: 0.189500 ms CreateObjectMapping: 0.068400 ms MarkObjects: 2.254200 ms  DeleteObjects: 0.114100 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2583.
+Total: 2.955500 ms (FindLiveObjects: 0.240500 ms CreateObjectMapping: 0.058400 ms MarkObjects: 2.582600 ms  DeleteObjects: 0.072000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -721,60 +1015,204 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 65.344790 seconds.
+  path: Assets/Scripts/Agarrar.cs
+  artifactKey: Guid(c8207e210fa6f87489ff29a8e4ad884b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Agarrar.cs using Guid(c8207e210fa6f87489ff29a8e4ad884b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f162b3f4a2703644fa0e77a2bfae52b') in 0.007629 seconds 
+  Import took 0.011855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.132923 seconds.
+  path: Assets/Scripts/Agarrar.cs
+  artifactKey: Guid(c8207e210fa6f87489ff29a8e4ad884b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Agarrar.cs using Guid(c8207e210fa6f87489ff29a8e4ad884b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f162b3f4a2703644fa0e77a2bfae52b') in 0.005185 seconds 
+  Import took 0.010158 seconds .
+
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003776 seconds.
+Registered in 0.008342 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000020F79F93580 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.InputSystem.IntegrationTests.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F79EB9660 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Cinemachine.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7DFECE70 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F74C31A30 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE1BEE020 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE13566D0 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE094C030 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020FA0A33020 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F74CAC1A0 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7A3E9020 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE094C030 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7E148010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F74C7F680 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020FA0E67020 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.InputSystem.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020DE1760720 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7D4E7040 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7DBD3010 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000020F7DFECE70 doesn't match image C:\Users\Valentino\Documents\GitHub\Proyecto\controles\Library\ScriptAssemblies\Unity.InputSystem.TestFramework.dll
-Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.195 seconds
+- Completed reload, in  1.843 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2011 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.1 MB.
-System memory in use after: 92.2 MB.
+System memory in use before: 95.3 MB.
+System memory in use after: 95.4 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2526.
-Total: 3.065200 ms (FindLiveObjects: 0.309000 ms CreateObjectMapping: 0.086000 ms MarkObjects: 2.565700 ms  DeleteObjects: 0.103400 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2586.
+Total: 3.695100 ms (FindLiveObjects: 0.318800 ms CreateObjectMapping: 0.123900 ms MarkObjects: 3.171500 ms  DeleteObjects: 0.079300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007134 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.580 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2011 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.3 MB.
+System memory in use after: 95.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2589.
+Total: 3.484200 ms (FindLiveObjects: 0.282400 ms CreateObjectMapping: 0.061700 ms MarkObjects: 3.060600 ms  DeleteObjects: 0.077800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 134.436919 seconds.
+  path: Assets/Scripts/Agarrar.cs
+  artifactKey: Guid(c8207e210fa6f87489ff29a8e4ad884b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Agarrar.cs using Guid(c8207e210fa6f87489ff29a8e4ad884b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2892a252890af1746cf176ff06ce8cb') in 0.008352 seconds 
+  Import took 0.013263 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007879 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.810 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2011 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.3 MB.
+System memory in use after: 95.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2592.
+Total: 3.633200 ms (FindLiveObjects: 0.230200 ms CreateObjectMapping: 0.056200 ms MarkObjects: 3.261800 ms  DeleteObjects: 0.083500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007313 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.706 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2011 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.3 MB.
+System memory in use after: 95.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2595.
+Total: 2.648700 ms (FindLiveObjects: 0.235100 ms CreateObjectMapping: 0.067100 ms MarkObjects: 2.278300 ms  DeleteObjects: 0.066700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006662 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.561 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2011 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.2 MB.
+System memory in use after: 95.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2598.
+Total: 3.882200 ms (FindLiveObjects: 0.256000 ms CreateObjectMapping: 0.081200 ms MarkObjects: 3.474000 ms  DeleteObjects: 0.068300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006564 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.477 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2011 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.3 MB.
+System memory in use after: 95.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2601.
+Total: 2.655800 ms (FindLiveObjects: 0.240500 ms CreateObjectMapping: 0.048700 ms MarkObjects: 2.291000 ms  DeleteObjects: 0.074500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

@@ -7,9 +7,8 @@ public class Agarrar : MonoBehaviour
     private GameObject pickedObject;
     bool isHoldingSomething = false;
     public GameObject handPoint;
-    public string childFound;
-    private Transform item;
-    
+    //public string childFound;
+    //private Transform item;
 
     private void OnTriggerStay(Collider other)
     {
@@ -17,7 +16,7 @@ public class Agarrar : MonoBehaviour
             {
                 other.GetComponent<Rigidbody>().useGravity = false;
                 other.GetComponent<Rigidbody>().isKinematic = true;
-                other.GetComponent<Collider>().enabled = false;
+                other.GetComponent<Collider>().isTrigger = true;
                 if (other.gameObject.GetComponentInParent<InstanciadorObjetos>()){
                     InstanciadorObjetos insta = other.transform.GetComponentInParent<InstanciadorObjetos>();
                     insta.hasObjectInIt = false;
@@ -34,10 +33,11 @@ public class Agarrar : MonoBehaviour
                 //pickedObject = other.gameObject;
                 other.GetComponent<Rigidbody>().useGravity = true;
                 other.GetComponent<Rigidbody>().isKinematic = false;
-                other.GetComponent<Collider>().enabled = true;
+                other.GetComponent<Collider>().isTrigger = false;
                 other.transform.position = handPoint.transform.position;
                 other.gameObject.transform.SetParent(null);
                 pickedObject = null;
+                FindObjectOfType<AudioManager>().Play("DropObject");
                 StartCoroutine(delayCopado2());
                 return;
             }
@@ -47,7 +47,7 @@ public class Agarrar : MonoBehaviour
 
     IEnumerator delayCopado()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
         isHoldingSomething = true;
     }
 

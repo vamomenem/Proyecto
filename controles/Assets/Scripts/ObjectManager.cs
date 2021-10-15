@@ -9,6 +9,7 @@ public class ObjectManager : MonoBehaviour
     {
       if(transform.childCount > 0){
       objeto = FindFirstChildWithTag(gameObject, "Objeto");
+      FindObjectOfType<AudioManager>().Play("BreakingItem");
       Destroy(objeto);
       }
     }
