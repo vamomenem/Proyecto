@@ -15,7 +15,7 @@ public class mesacrafteo : MonoBehaviour
     private void OnCollisionEnter(Collision other){
         if (other.gameObject.tag == "Objeto"){
 
-            if (objetos.lenght == 3) return;
+            if (objetos.Length == 3) return;
 
             if (objetos[0] == null){
                 //PONER OBJETO EN SU LUGAR
@@ -24,13 +24,13 @@ public class mesacrafteo : MonoBehaviour
                 return;
             }
 
-            ObjetoInfo infoLastObjeto = objetos[objetos.lenght - 1].GetComponent<ObjetoInfo>();
+            ObjetoInfo infoLastObjeto = objetos[objetos.Length - 1].GetComponent<ObjetoInfo>();
             ObjetoInfo infoOtroObjeto = other.gameObject.GetComponent<ObjetoInfo>();
 
             if (infoLastObjeto.info.tag == infoOtroObjeto.info.tag){
                 //PONER OBJETO EN EL SIGUIENTE LUGAR
 
-                objetos[objetos.lenght] = other.gameObject;
+                objetos[objetos.Length] = other.gameObject;
                 return;
             }
 
@@ -41,7 +41,7 @@ public class mesacrafteo : MonoBehaviour
     }
 
     private void Update(){
-        if (objetos.lenght == 3){
+        if (objetos.Length == 3){
             //INSTANCIAR OBJETO      JUAN TE LA RE COMES
 
             //Instantiate(objetos[2].GetComponent<ObjetoInfo>().info.prefab, posicionCualquiera,RotacionCualquiera);

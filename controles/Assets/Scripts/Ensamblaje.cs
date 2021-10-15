@@ -29,6 +29,7 @@ public class Ensamblaje : MonoBehaviour
                     coll.transform.position = asamblePoint3.transform.position;
                     //craft
                     break;
+                    
 
 
             }
