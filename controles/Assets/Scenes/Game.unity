@@ -1147,8 +1147,8 @@ GameObject:
   - component: {fileID: 418355067}
   - component: {fileID: 418355066}
   - component: {fileID: 418355065}
-  - component: {fileID: 418355069}
   - component: {fileID: 418355070}
+  - component: {fileID: 418355069}
   m_Layer: 0
   m_Name: Mesa Ensamblaje 1
   m_TagString: Untagged
@@ -1244,13 +1244,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 418355064}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9031ea2d496e83844b926e9165be1670, type: 3}
+  m_Script: {fileID: 11500000, guid: a3f63d86f631ed14387a99d3870fae31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mueble: {fileID: 0}
-  asamblePoint1: {fileID: 1179047623}
-  asamblePoint2: {fileID: 849275579}
-  asamblePoint3: {fileID: 21129953}
 --- !u!54 &418355070
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7011,6 +7007,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 380612735340803645, guid: 989ba3addd8383b46894ec24172e7c56, type: 3}
   m_PrefabInstance: {fileID: 380612735959178862}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2007172877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007172876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bbf6305caa66654889cb09d34cac060, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  info: {fileID: 11400000, guid: d321a57f0994dcd4a80b4a45f9ae071b, type: 2}
 --- !u!1 &2126808381
 GameObject:
   m_ObjectHideFlags: 0
