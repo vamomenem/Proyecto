@@ -989,7 +989,6 @@ GameObject:
   m_Component:
   - component: {fileID: 402376962}
   - component: {fileID: 402376963}
-  - component: {fileID: 402376964}
   m_Layer: 0
   m_Name: handPoint
   m_TagString: Untagged
@@ -1023,29 +1022,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48d488628895b7f4098fee3c901c41ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &402376964
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 402376961}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 465d9ab8a179c0e4e8b7c36c172b45ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mixerGroup: {fileID: 0}
-  sounds:
-  - name: BreakingItem
-    clip: {fileID: 8300000, guid: 97c086948214df34293f3fabaebbc674, type: 3}
-    volume: 1
-    volumeVariance: 0
-    pitch: 1.5
-    pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 0}
-    source: {fileID: 0}
 --- !u!1 &412944585
 GameObject:
   m_ObjectHideFlags: 0
@@ -2333,7 +2309,6 @@ GameObject:
   - component: {fileID: 670953672}
   - component: {fileID: 670953675}
   - component: {fileID: 670953674}
-  - component: {fileID: 670953673}
   m_Layer: 0
   m_Name: Hand
   m_TagString: Untagged
@@ -2356,38 +2331,6 @@ Transform:
   m_Father: {fileID: 1987060516}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &670953673
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 670953671}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 465d9ab8a179c0e4e8b7c36c172b45ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mixerGroup: {fileID: 0}
-  sounds:
-  - name: PickupObject
-    clip: {fileID: 8300000, guid: 68db35ecf197a6f40937aba65f102c4b, type: 3}
-    volume: 1
-    volumeVariance: 0
-    pitch: 1.5
-    pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 0}
-    source: {fileID: 0}
-  - name: DropObject
-    clip: {fileID: 8300000, guid: 25766f5c2f9d3f241b82ee8827177e44, type: 3}
-    volume: 1
-    volumeVariance: 0
-    pitch: 1.5
-    pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 0}
-    source: {fileID: 0}
 --- !u!114 &670953674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3785,7 +3728,6 @@ GameObject:
   - component: {fileID: 1007113414}
   - component: {fileID: 1007113417}
   - component: {fileID: 1007113415}
-  - component: {fileID: 1007113416}
   m_Layer: 0
   m_Name: Hand
   m_TagString: Untagged
@@ -3821,38 +3763,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   handPoint: {fileID: 1357507347}
---- !u!114 &1007113416
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1007113413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 465d9ab8a179c0e4e8b7c36c172b45ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mixerGroup: {fileID: 0}
-  sounds:
-  - name: PickupObject
-    clip: {fileID: 8300000, guid: 68db35ecf197a6f40937aba65f102c4b, type: 3}
-    volume: 1
-    volumeVariance: 0
-    pitch: 1.5
-    pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 0}
-    source: {fileID: 0}
-  - name: DropObject
-    clip: {fileID: 8300000, guid: 25766f5c2f9d3f241b82ee8827177e44, type: 3}
-    volume: 1
-    volumeVariance: 0
-    pitch: 1.5
-    pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 0}
-    source: {fileID: 0}
 --- !u!65 &1007113417
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4835,7 +4745,6 @@ GameObject:
   - component: {fileID: 1220061914}
   - component: {fileID: 1220061915}
   - component: {fileID: 1220061916}
-  - component: {fileID: 1220061917}
   m_Layer: 0
   m_Name: Tester (2)
   m_TagString: Player
@@ -5055,29 +4964,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   knockbackStrength: 50
---- !u!114 &1220061917
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1220061906}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 465d9ab8a179c0e4e8b7c36c172b45ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mixerGroup: {fileID: 0}
-  sounds:
-  - name: KnockBack
-    clip: {fileID: 8300000, guid: 95bab9f23aa11a54eb318c81e4340192, type: 3}
-    volume: 0
-    volumeVariance: 0
-    pitch: 0
-    pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 0}
-    source: {fileID: 0}
 --- !u!1 &1273015946
 GameObject:
   m_ObjectHideFlags: 0
@@ -5492,7 +5378,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1357507348}
   - component: {fileID: 1357507349}
-  - component: {fileID: 1357507350}
   m_Layer: 0
   m_Name: handPoint
   m_TagString: Untagged
@@ -5526,29 +5411,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48d488628895b7f4098fee3c901c41ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1357507350
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1357507347}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 465d9ab8a179c0e4e8b7c36c172b45ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mixerGroup: {fileID: 0}
-  sounds:
-  - name: BreakingItem
-    clip: {fileID: 8300000, guid: 97c086948214df34293f3fabaebbc674, type: 3}
-    volume: 1
-    volumeVariance: 0
-    pitch: 1.5
-    pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 0}
-    source: {fileID: 0}
 --- !u!1 &1375879509
 GameObject:
   m_ObjectHideFlags: 0
@@ -7323,7 +7185,6 @@ GameObject:
   - component: {fileID: 1987060510}
   - component: {fileID: 1987060517}
   - component: {fileID: 1987060518}
-  - component: {fileID: 1987060519}
   m_Layer: 0
   m_Name: Tester (1)
   m_TagString: Player
@@ -7524,29 +7385,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   knockbackStrength: 50
---- !u!114 &1987060519
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1987060509}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 465d9ab8a179c0e4e8b7c36c172b45ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mixerGroup: {fileID: 0}
-  sounds:
-  - name: KnockBack
-    clip: {fileID: 8300000, guid: 95bab9f23aa11a54eb318c81e4340192, type: 3}
-    volume: 0
-    volumeVariance: 0
-    pitch: 0
-    pitchVariance: 0
-    loop: 0
-    mixerGroup: {fileID: 0}
-    source: {fileID: 0}
 --- !u!1 &2007172876 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 380612735340803645, guid: 989ba3addd8383b46894ec24172e7c56, type: 3}
@@ -7865,7 +7703,91 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1732523888129234901, guid: 5f7befa52f346e344835472b4202246a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2029050897804440485, guid: 5f7befa52f346e344835472b4202246a, type: 3}
+      propertyPath: sounds.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2029050897804440485, guid: 5f7befa52f346e344835472b4202246a, type: 3}
+      propertyPath: sounds.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 95bab9f23aa11a54eb318c81e4340192, type: 3}
+    - target: {fileID: 2029050897804440485, guid: 5f7befa52f346e344835472b4202246a, type: 3}
+      propertyPath: sounds.Array.data[0].name
+      value: Knockback
+      objectReference: {fileID: 0}
+    - target: {fileID: 2029050897804440485, guid: 5f7befa52f346e344835472b4202246a, type: 3}
+      propertyPath: sounds.Array.data[1].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 68db35ecf197a6f40937aba65f102c4b, type: 3}
+    - target: {fileID: 2029050897804440485, guid: 5f7befa52f346e344835472b4202246a, type: 3}
+      propertyPath: sounds.Array.data[1].name
+      value: PickupObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 2029050897804440485, guid: 5f7befa52f346e344835472b4202246a, type: 3}
+      propertyPath: sounds.Array.data[2].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 25766f5c2f9d3f241b82ee8827177e44, type: 3}
+    - target: {fileID: 2029050897804440485, guid: 5f7befa52f346e344835472b4202246a, type: 3}
+      propertyPath: sounds.Array.data[2].name
+      value: DropObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 2029050897804440485, guid: 5f7befa52f346e344835472b4202246a, type: 3}
+      propertyPath: sounds.Array.data[3].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 97c086948214df34293f3fabaebbc674, type: 3}
+    - target: {fileID: 2029050897804440485, guid: 5f7befa52f346e344835472b4202246a, type: 3}
+      propertyPath: sounds.Array.data[3].name
+      value: BreakingItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 2029050897804440485, guid: 5f7befa52f346e344835472b4202246a, type: 3}
+      propertyPath: sounds.Array.data[4].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 25766f5c2f9d3f241b82ee8827177e44, type: 3}
+    - target: {fileID: 2029050897804440485, guid: 5f7befa52f346e344835472b4202246a, type: 3}
+      propertyPath: sounds.Array.data[4].name
+      value: BreakingItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 2029050897804440485, guid: 5f7befa52f346e344835472b4202246a, type: 3}
+      propertyPath: sounds.Array.data[0].pitch
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2029050897804440485, guid: 5f7befa52f346e344835472b4202246a, type: 3}
+      propertyPath: sounds.Array.data[1].pitch
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2029050897804440485, guid: 5f7befa52f346e344835472b4202246a, type: 3}
+      propertyPath: sounds.Array.data[2].pitch
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2029050897804440485, guid: 5f7befa52f346e344835472b4202246a, type: 3}
+      propertyPath: sounds.Array.data[3].pitch
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2029050897804440485, guid: 5f7befa52f346e344835472b4202246a, type: 3}
+      propertyPath: sounds.Array.data[4].pitch
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2029050897804440485, guid: 5f7befa52f346e344835472b4202246a, type: 3}
+      propertyPath: sounds.Array.data[0].volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2029050897804440485, guid: 5f7befa52f346e344835472b4202246a, type: 3}
+      propertyPath: sounds.Array.data[1].volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2029050897804440485, guid: 5f7befa52f346e344835472b4202246a, type: 3}
+      propertyPath: sounds.Array.data[2].volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2029050897804440485, guid: 5f7befa52f346e344835472b4202246a, type: 3}
+      propertyPath: sounds.Array.data[3].volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2029050897804440485, guid: 5f7befa52f346e344835472b4202246a, type: 3}
+      propertyPath: sounds.Array.data[4].volume
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2599416059956601002, guid: 5f7befa52f346e344835472b4202246a, type: 3}
       propertyPath: m_RootOrder
@@ -7873,7 +7795,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2599416059956601002, guid: 5f7befa52f346e344835472b4202246a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 7.54
       objectReference: {fileID: 0}
     - target: {fileID: 2599416059956601002, guid: 5f7befa52f346e344835472b4202246a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7881,7 +7803,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2599416059956601002, guid: 5f7befa52f346e344835472b4202246a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 12.84
       objectReference: {fileID: 0}
     - target: {fileID: 2599416059956601002, guid: 5f7befa52f346e344835472b4202246a, type: 3}
       propertyPath: m_LocalRotation.w
